@@ -1,0 +1,566 @@
+Chunk_size,Chunk_Overlap,Top_N,Distance_Function,Time,Story Number,Question Number,isQuestionBad,isAnswerAbsent,Question Type,EM,Precision,Recall,F1,Original Question,Correct Answer,Normalized Actual Answer,Predicted Answer,Normalized Predicted Answer,EM Fail,Chunk Retrieval Failure,Answer Generation Failure,Answer Too Long
+100,0,2,cosine,26.596049308776855,0,0,0.00,0.00,what,1,1.0,1.0,1.0,What was the amount of children murdered?,19 ,19,19,19,0,0,0,0
+100,0,2,cosine,52.512964487075806,0,1,0.00,0.00,when,1,1.0,1.0,1.0,When was Pandher sentenced to death?,"February.
+",februari, In February,februari,0,0,0,0
+100,0,2,cosine,81.1682698726654,0,2,0.00,0.00,what,0,0.3333333333333333,0.5,0.4,The court aquitted Moninder Singh Pandher of what crime?,rape and murder ,rape murder, Murder (implied by context),murder impli context,1,1,0,0
+100,0,2,cosine,109.19031405448914,0,3,0.00,0.00,who,0,0.5,1.0,0.6666666666666666,who was acquitted,Moninder Singh Pandher ,monind singh pandher,"1. Moninder Singh Pandher
+    2. Acquitted",1. monind singh pandher 2. acquit,1,1,0,0
+100,0,2,cosine,133.27829122543335,0,4,0.00,0.33,who,0,0.42857142857142855,1.0,0.6,who was sentenced,Moninder Singh Pandher ,monind singh pandher,"1. Moninder Singh Pandher
+    2. Surinder Koli",1. monind singh pandher 2. surind koli,1,0,0,1
+100,0,2,cosine,161.99358463287354,0,5,0.00,0.00,what,0,0,0,0,What was Moninder Singh Pandher acquitted for?,the killing of a teen ,kill teen, Acquittal of Murder Charges,acquitt murder charg,1,1,0,0
+100,0,2,cosine,188.53287291526794,0,6,0.00,0.00,who,0,0.75,1.0,0.8571428571428571,Who was sentenced to death in February?,Moninder Singh Pandher ,monind singh pandher,1. Moninder Singh Pandher,1. monind singh pandher,1,0,0,1
+100,0,2,cosine,210.66988849639893,0,7,0.00,0.00,how many,0,0.5,1.0,0.6666666666666666,how many people died,19 ,19,19 people,19 peopl,1,0,0,1
+100,0,2,cosine,236.67807984352112,0,8,0.00,0.00,how many,0,0.5,1.0,0.6666666666666666,How many children and young women were murdered?,19 ,19,19 victims,19 victim,1,0,0,1
+100,0,2,cosine,262.55300092697144,1,0,0.00,0.00,where,0,0,0,0,Where was one employee killed?,Sudanese region of Darfur ,sudanes region darfur, In Chad (or Seleia),chad seleia,1,1,0,0
+100,0,2,cosine,302.6175684928894,1,1,0.00,0.00,what,0,0.041666666666666664,0.25,0.07142857142857142,what happened in chad,"attempt by rebels there to topple the government.
+",attempt rebel toppl govern,"1. Rebels attacked N'Djamena (capital of Chad)
+    2. Refugees fled to eastern Chad refugee camps
+    3. Security situation worsened south of the country
+    4. 30,000 people fled to Cameroon","1. rebel attack n'djamena capit chad 2. refuge fled eastern chad refuge camp 3. secur situat worsen south countri 4 30,000 peopl fled cameroon",1,1,0,0
+100,0,2,cosine,336.34135246276855,1,2,0.00,0.00,who,0,0.25,0.2857142857142857,0.26666666666666666,Who is fighting in Chad?,"government forces, rebel groups and allied militia groups ",govern forc rebel group alli militia group,"1. Rebels (in N'Djamena)
+    2. Sudanese militia (from Darfur region)",1. rebel n'djamena 2. sudanes militia darfur region,1,1,0,0
+100,0,2,cosine,370.5496246814728,1,3,0.00,0.00,what,0,0,0,0,What is Darfur wracked by?,Fighting ,fight,"1) Fighting/War (in general)
+    2) Violence/Conflict (related to Sudanese region of Darfur)",1 fighting/war gener 2 violence/conflict relat sudanes region darfur,1,1,0,0
+100,0,2,cosine,399.3793668746948,1,4,0.00,0.00,how many,0,0,0,0,How many have recently crossed to Chad?,"12,000 ","12,000","30,000 people","30,000 peopl",1,1,0,0
+100,0,2,cosine,431.02239751815796,1,5,0.00,0.00,how many,0,0,0,0,How many people have crossed to Chad in last few days?,"12,000 ","12,000","30,000","30,000",1,1,0,0
+100,0,2,cosine,431.0225999355316,1,6,1.00,0.00,other,,,,,were many children killed,,,,,,,,
+100,0,2,cosine,460.19862627983093,1,7,0.00,0.00,who,0,0,0,0,Who was killed in Dafur?,"Red Cross employee dead, ",red cross employe dead,45-year-old Sudanese national (father),45-year-old sudanes nation father,1,0,1,0
+100,0,2,cosine,492.19550013542175,2,0,0.00,0.00,who,0,0,0,0,who did say South Africa did not issue a visa on time?,Archbishop Desmond Tutu ,archbishop desmond tutu,1. Speculation surfaced that... (The speculation implies someone said something but it's not explicitly stated who.),1. specul surfac ... specul impli someon said someth 's explicitli state,1,1,0,0
+100,0,2,cosine,533.0492691993713,2,2,0.00,0.00,who,0,0.04,1.0,0.07692307692307693,who is responsible for all this,government. ,govern,"1. Parties involved in hostilities (not specified)
+    2. Government officials (for visa process explanation)
+    3. Unspecified government(s) (denying legitimacy to someone)
+    4. ICRC (responsible for employee's death, if it was due to hostilities)",1. parti involv hostil specifi 2. govern offici visa process explan 3. unspecifi govern deni legitimaci someon 4. icrc respons employe 's death due hostil,1,1,0,0
+100,0,2,cosine,559.6071991920471,2,5,0.00,0.00,who,0,0,0,0,Who does the African National Congress say should calm down?,Tutu ,tutu, South Africa's government,south africa 's govern,1,0,1,0
+100,0,2,cosine,559.6074435710907,2,6,1.00,0.00,other,,,,,no legal reason for this,,,,,,,,
+100,0,2,cosine,589.9613833427429,2,7,0.00,0.00,who,0,0.09090909090909091,0.3333333333333333,0.14285714285714288,Who says the government is acting worse than apartheid regime?,Archbishop Desmond Tutu ,archbishop desmond tutu,1. The speaker suggests that Tutu believes the current government acts worse than apartheid regimes.,1. speaker suggest tutu believ current govern act wors apartheid regim,1,1,0,0
+100,0,2,cosine,618.5886409282684,2,8,0.00,0.00,who,0,0,0,0,Who was denied visa to South Africa in 2009?,Dalai Lama ,dalai lama, Robert Mugabe (Zimbabwe's President),robert mugab zimbabw 's presid,1,1,0,0
+100,0,2,cosine,641.6969745159149,3,0,0.00,0.00,how many,0,0,0,0,How many years old was the businessman?,29-year-old ,29-year-old,29,29,1,0,1,0
+100,0,2,cosine,667.9358975887299,3,1,0.00,0.00,what,0,0,0,0,What did Gerrard admit,throwing three punches ,throw three punch, Not admitted (or nothing about admitting anything),admit noth admit anyth,1,1,0,0
+100,0,2,cosine,698.333779335022,3,2,0.00,0.00,who,0,0.2222222222222222,1.0,0.3636363636363636,Who was cleared by a Liverpool court?,Steven Gerrard ,steven gerrard,"1) Steven Gerrard
+    2) The England international footballer
+    3) Gerrard",1 steven gerrard 2 england intern footbal 3 gerrard,1,0,0,1
+100,0,2,cosine,722.7547647953033,3,3,0.00,0.00,who,1,1.0,1.0,1.0,Who was cleared of charges,Steven Gerrard ,steven gerrard, Steven Gerrard,steven gerrard,0,0,0,0
+100,0,2,cosine,751.4412949085236,3,4,0.00,0.00,what,0,0,0,0,What did Gerrard admit doing?,"punching businessman Marcus McGhee.
+",punch businessman marcu mcghee,"1. Wanted to change CD player music
+
+Reference(s):
+CNN",1. want chang cd player music refer cnn,1,1,0,0
+100,0,2,cosine,778.3732154369354,3,5,0.00,0.33,what,0,0.2857142857142857,0.25,0.26666666666666666,What did the Jury accept,They accepted the Liverpool captain's version that he acted in self defense ,accept liverpool captain 's version act self defens, The jury accepted Kochar's claim that he believed he was about to be attacked.,juri accept kochar 's claim believ attack,1,1,0,0
+100,0,2,cosine,804.2256503105164,3,6,0.00,0.00,who,0,0.5,0.3333333333333333,0.4,Who did Gerrard admit to punching?,"businessman Marcus McGhee.
+",businessman marcu mcghee,1 businessman,1 businessman,1,1,0,0
+100,0,2,cosine,829.845228433609,3,7,0.00,0.00,who,1,1.0,1.0,1.0,Who was cleared of affray charge?,Steven Gerrard ,steven gerrard, Steven Gerrard,steven gerrard,0,0,0,0
+100,0,2,cosine,856.9987466335297,4,0,0.00,0.00,what,0,0,0,0,What frightened the families?,"a series of killings and threats by Muslim extremists ordering them to convert to Islam or face death.
+",seri kill threat muslim extremist order convert islam face death,1424 Iraqi Christian families were frightened by attacks from terrorist groups.,1424 iraqi christian famili frighten attack terrorist group,1,1,0,0
+100,0,2,cosine,884.4874444007874,4,1,0.00,0.20,how many,0,0,0,0,How many Christian families have been displaced,"1,424 ","1,424",6000 (Christian families),6000 christian famili,1,0,1,0
+100,0,2,cosine,907.545660495758,4,2,0.00,0.00,what,0,0.5,1.0,0.6666666666666666,What did extremists order thdm to do,"Islam or face death.
+",islam face death,"1. Convert to Islam
+    2. Face death",1. convert islam 2. face death,1,1,0,0
+100,0,2,cosine,933.3288278579712,4,3,0.00,0.00,how many,0,0,0,0,How many families have been displaced?,"1,424 ","1,424",1424 families,1424 famili,1,0,1,0
+100,0,2,cosine,960.8899281024933,4,4,0.00,0.33,what,0,0,0,0,What were the families ordered to do?,"Islam or face death.
+",islam face death,"1. Displaced (from their homes)
+    2. Build housing complexes",1. displac home 2. build hous complex,1,1,0,0
+100,0,2,cosine,988.5778970718384,4,5,0.00,0.00,how many,0,0,0,0,How many Christians have been slain,Fourteen ,fourteen,14,14,1,0,1,0
+100,0,2,cosine,1010.1083836555481,4,6,0.00,0.00,who,0,0,0,0,Who was displaced?,"1,424 families, ","1,424 famili",1. Iraqis (from their homes),1. iraqi home,1,0,1,0
+100,0,2,cosine,1037.1158452033997,4,7,0.00,0.00,who,0,0.16666666666666666,1.0,0.2857142857142857,Who are the extremists ordering to convert to Islam?,Muslim ,muslim,"1. Muslim militants
+    2. Terrorist groups",1. muslim milit 2. terrorist group,1,0,0,1
+100,0,2,cosine,1068.5973913669586,5,0,0.00,0.00,what,0,0,0,0,what Pope used to beat himself?,John Paul II ,john paul ii,1. whip (noun) or flagellate (verb),1. whip noun flagel verb,1,0,1,0
+100,0,2,cosine,1098.7050564289093,5,1,0.33,0.00,who,0,0.1,1.0,0.18181818181818182,"who ""a particular pant-belt"" to beat himself, book says?",Pope ,pope,"1) Pope John Paul II
+    2) The pope (John Paul II)",1 pope john paul ii 2 pope john paul ii,1,1,0,0
+100,0,2,cosine,1127.5733532905579,5,2,0.00,0.00,who,0,0,0,0,"who says ""Why he is a Saint: The True story of John Paul II""?","Slawomir Oder, ",slawomir oder, David Gibson,david gibson,1,1,0,0
+100,0,2,cosine,1153.8398609161377,5,4,0.33,0.00,what,0,0,0,0,what did he do,used to beat himself with a belt and sleep on a bare floor ,use beat belt sleep bare floor, He submitted a visa application to the South African High Commission for himself and his entourage.,submit visa applic south african high commiss entourag,1,1,0,0
+100,0,2,cosine,1153.8400211334229,5,5,0.00,1.00,where,,,,,where was he born,,,,,,,,
+100,0,2,cosine,1179.2581238746643,5,7,0.33,0.00,what,0,0.75,1.0,0.8571428571428571,what pope is this,John Paul II ,john paul ii, Pope John Paul II,pope john paul ii,1,0,0,1
+100,0,2,cosine,1208.5059461593628,5,8,0.33,0.00,when,0,0.25,1.0,0.4,when John Paul wrot a apostolic letter on suffering?,"1984.
+",1984,1984 (Salvifici Doloris published),1984 salvifici dolori publish,1,1,0,0
+100,0,2,cosine,1241.1533780097961,6,0,0.00,0.00,who,0,0,0,0,Who is hiring?,the federal government ,feder govern,"1. Navy (for machinists)
+    2. Bureau (unspecified job type)
+    3. Unnamed companies (clerical workers)",1. navi machinist 2. bureau unspecifi job type 3. unnam compani cleric worker,1,1,0,0
+100,0,2,cosine,1265.350744485855,6,1,0.00,0.00,what,0,0.125,1.0,0.2222222222222222,What does the navy need?,workers ,worker,"1. Engineering expertise
+    2. Machinists
+    3. Clerical workers",1. engin expertis 2. machinist 3. cleric worker,1,1,0,0
+100,0,2,cosine,1286.9699952602386,6,3,0.00,0.50,what,0,0.5,0.25,0.3333333333333333,What kind of scientists does the Navy need?,"engineering, physics, chemistry and other sciences.
+",engin physic chemistri scienc,1. Engineers,1. engin,1,1,0,0
+100,0,2,cosine,1314.48641705513,6,4,0.00,0.00,what,0,0.25,1.0,0.4,What kind of club in Rhode Island needs more workers?,strip ,strip,1. Strip Club (Providence),1. strip club provid,1,0,0,1
+100,0,2,cosine,1340.1986284255981,6,5,0.00,0.00,what,0,0,0,0,What does the strip club in Rhode Island need more of?,workers ,worker,25-30 employees,25-30 employe,1,1,0,0
+100,0,2,cosine,1365.285276889801,6,6,0.00,0.00,where,0,0,0,0,Census bureaus are hiring people from where?,Denver area. ,denver area,"1. Idaho
+    2. Alabama",1. idaho 2. alabama,1,1,0,0
+100,0,2,cosine,1388.7306718826294,6,7,0.00,0.00,what,0,0.4,1.0,0.5714285714285715,what government organization is hiring?,"census bureau, ",censu bureau,1. Census Bureau (or simply 'Census'),1. censu bureau simpli 'censu,1,1,0,0
+100,0,2,cosine,1411.5863091945648,7,0,0.00,0.33,what,0,0.3333333333333333,1.0,0.5,What war was the Iwo Jima battle a part of?,II ,ii, World War II,world war ii,1,0,0,1
+100,0,2,cosine,1437.6098146438599,7,1,0.00,0.33,where,0,0.5,1.0,0.6666666666666666,Where was Michael Strank born?,Czechoslovakia ,czechoslovakia,1. Czechoslovakia,1. czechoslovakia,1,0,0,1
+100,0,2,cosine,1465.894378900528,7,2,0.00,0.33,where,0,0.2,1.0,0.33333333333333337,Where was STrank killed?,on the island ,island, Island (or Seleia if more specific information is required),island seleia specif inform requir,1,0,0,1
+100,0,2,cosine,1509.2721464633942,7,3,0.00,0.33,who,0,0.07407407407407407,0.6666666666666666,0.13333333333333333,Who was among six who famously raised flag on Iwo Jima?,"Sgt. Michael Strank, ",sgt michael strank,"1. John Bradley
+    2. Rene Gagnon
+    3. Ira Hayes
+    4. Franklin Sousa
+    5. Michael Strank (posthumous U.S. citizenship)
+    6. Harlon Block (killed in action, posthumously awarded the Medal of Honor)",1. john bradley 2. rene gagnon 3. ira hay 4. franklin sousa 5. michael strank posthum u.s. citizenship 6. harlon block kill action posthum award medal honor,1,1,0,0
+100,0,2,cosine,1533.6470215320587,7,4,0.00,0.00,what,0,0,0,0,What rank did Michael Strank hold?,Sgt. ,sgt, Sergeant,sergeant,1,1,0,0
+100,0,2,cosine,1567.1651375293732,7,5,0.00,0.33,when,0,0,0,0,When was the certificate given to his sister?,"Tuesday.
+",tuesday,1945 (based on the assumption that Mary received her citizenship at the same time as her brother),1945 base assumpt mari receiv citizenship time brother,1,1,0,0
+100,0,2,cosine,1592.9873340129852,7,6,0.00,0.33,who,0,0,0,0,Who was killed on Iwo Jima in World War II ?,"Michael Strank, ",michael strank,1. John Bradley (Marine),1. john bradley marin,1,1,0,0
+100,0,2,cosine,1617.6186723709106,7,7,0.00,0.00,where,0,0.5,1.0,0.6666666666666666,"WHERE WAS Strank, born?",Czechoslovakia ,czechoslovakia,1. Czechoslovakia,1. czechoslovakia,1,0,0,1
+100,0,2,cosine,1643.069551706314,7,8,0.00,0.33,what,1,1.0,1.0,1.0,What did Strank not receive?,"citizenship papers.
+",citizenship paper, Citizenship papers,citizenship paper,0,0,0,0
+100,0,2,cosine,1666.6355166435242,7,9,0.00,0.33,where,0,0.5,1.0,0.6666666666666666,Where was Strank born?,Czechoslovakia ,czechoslovakia,1. Czechoslovakia,1. czechoslovakia,1,0,0,1
+100,0,2,cosine,1689.2493410110474,8,0,0.00,0.33,who,0,1.0,0.5,0.6666666666666666,Iran criticizes who?,U.S. President-elect Barack Obama ,u.s. president-elect barack obama, Barack Obama,barack obama,1,0,0,1
+100,0,2,cosine,1712.0602722167969,8,1,0.00,0.33,what,0,0.5,1.0,0.6666666666666666,What are US and Iran relations tensioned about?,"nuclear program.
+",nuclear program,1. Nuclear program of Iran,1. nuclear program iran,1,1,0,0
+100,0,2,cosine,1740.7474694252014,8,2,0.00,0.00,who,0,0.2857142857142857,1.0,0.4444444444444445,Who said Obama should apply campaign message?,Ali Larijani ,ali larijani,1. Iran's parliament speaker Ali Larijani,1. iran 's parliament speaker ali larijani,1,0,0,1
+100,0,2,cosine,1769.7452442646027,8,3,0.00,0.33,what,0,0.25,0.3333333333333333,0.28571428571428575,What should Obama apply according to speaker?,his campaign message of change ,campaign messag chang,1. Change (to U.S. dealings),1. chang u.s. deal,1,0,0,1
+100,0,2,cosine,1798.2131326198578,8,4,0.00,0.00,what,0,0.2857142857142857,1.0,0.4444444444444445,US - Iran tensions are high over what?,"nuclear program.
+",nuclear program,"1. Nuclear program
+    2. Uranium enrichment activities",1. nuclear program 2. uranium enrich activ,1,1,0,0
+100,0,2,cosine,1823.100668668747,8,5,0.00,0.00,who,1,1.0,1.0,1.0,Who was the President of the US at this time?,Barack Obama ,barack obama, Barack Obama,barack obama,0,0,0,0
+100,0,2,cosine,1848.1769564151764,8,6,0.00,0.00,who,0,0,0,0,Who has tensions over Tehran's nuclear ambitions?,U.S. ,u., Western nations,western nation,1,1,0,0
+100,0,2,cosine,1874.2549095153809,8,7,0.00,0.00,who,0,0,0,0,Who criticized Obama ?,Iran's parliament speaker ,iran 's parliament speaker, Ali Larijani,ali larijani,1,0,1,0
+100,0,2,cosine,1903.4203934669495,8,8,0.00,0.00,who,0,0.2857142857142857,0.5,0.36363636363636365,Parliamentary speaker says who should apply campaign message of change?,U.S. President-elect Barack Obama ,u.s. president-elect barack obama, Obama (should) apply his campaign message of change to U.S. dealings,obama appli campaign messag chang u.s. deal,1,1,0,0
+100,0,2,cosine,1927.5737872123718,8,9,0.00,0.00,what,0,0,0,0,What kind of weapons are being discussed?,nuclear ,nuclear,"1. Aircraft (Naval Air Warfare Center Weapons Division)
+    2. Military weapons (military attacks against civilians)",1. aircraft naval air warfar center weapon divis 2. militari weapon militari attack civilian,1,0,1,0
+100,0,2,cosine,1954.131676197052,9,0,0.00,0.00,who,0,0.2,0.3333333333333333,0.25,Who is Radu Mazare?,"mayor of the town of Constanta, ",mayor town constanta,1. Mayor of Bucharest (inferred from context),1. mayor bucharest infer context,1,1,0,0
+100,0,2,cosine,1980.4763188362122,9,1,0.00,0.00,who,0,0.5,1.0,0.6666666666666666,Who is calling for the official's resignation?,organizations ,organ, Jewish organizations,jewish organ,1,0,0,1
+100,0,2,cosine,2004.8061065673828,9,2,0.00,0.00,what,0,0,0,0,What did Mazarin do?,he wore a Nazi uniform during a fashion show ,wore nazi uniform fashion show, Broke Romanian law.,broke romanian law,1,1,0,0
+100,0,2,cosine,2026.8167471885681,9,3,0.00,0.00,what,0,0.6666666666666666,1.0,0.8,What did the mayor wear?,Nazi uniform ,nazi uniform,1. Nazi uniform,1. nazi uniform,1,0,0,1
+100,0,2,cosine,2050.1283593177795,9,4,0.00,0.00,what,0,0.5,1.0,0.6666666666666666,What organizations  are calling for his resignation?,Jewish ,jewish, Jewish organizations,jewish organ,1,0,0,1
+100,0,2,cosine,2081.0114777088165,9,5,0.00,0.00,what,0,0.6666666666666666,1.0,0.8,What did Radu Mazare say he did not notice?,the Nazi swastika symbol on the uniform before ,nazi swastika symbol uniform,1. The Nazi swastika symbol on his uniform before wearing it.,1. nazi swastika symbol uniform wear,1,0,0,1
+100,0,2,cosine,2107.74667429924,9,6,0.00,0.00,what,0,0,0,0,What did the mayor do?,wore a Nazi uniform ,wore nazi uniform, The information provided does not specify what action the mayor took regarding Zuroff's suggestion about creating a city.,inform provid specifi action mayor took regard zuroff 's suggest creat citi,1,0,1,0
+100,0,2,cosine,2138.2846944332123,9,7,0.00,0.00,what,0,0,0,0,What did the Jews call for?,a Romanian official to resign and face a criminal investigation ,romanian offici resign face crimin investig,"1) Accountability of SS members responsible for Holocaust crimes.
+    2) Access to Vatican archives related to WWII-era activities.",1 account ss member respons holocaust crime 2 access vatican archiv relat wwii-era activ,1,1,0,0
+100,0,2,cosine,2163.9520361423492,9,8,0.00,0.00,who,1,1.0,1.0,1.0,Who wore a Nazi uniform?,"Radu Mazare, ",radu mazar, Radu Mazare,radu mazar,0,0,0,0
+100,0,2,cosine,2196.228180170059,10,0,0.00,0.00,how many,0,0.5,1.0,0.6666666666666666,How many followers does Rupert have?,"45,000 ","45,000","45000 (or 45,000)","45000 45,000",1,0,0,1
+100,0,2,cosine,2227.638177871704,10,1,0.00,0.00,how many,0,0,0,0,How many followers does Murdoch have on twitter?,"45,000 ","45,000",12 million (as of 2023),12 million 2023,1,0,1,0
+100,0,2,cosine,2266.711574316025,10,2,0.00,0.00,what,0,0,0,0,What do his tweets talk about?,"family, work and politics, ",famili work polit,"1) Notorious technophobe
+    2) Voice of the tweets
+    3) Faltering grammar and punctuation
+    4) Guilty of ""tweeting-before-thinking""",1 notori technophob 2 voic tweet 3 falter grammar punctuat 4 guilti `` tweeting-before-think '',1,1,0,0
+100,0,2,cosine,2289.1327092647552,10,3,0.00,0.33,what,0,0,0,0,What is his age?,80-year-old ,80-year-old,29 years old,29 year old,1,0,1,0
+100,0,2,cosine,2313.5522232055664,10,4,0.00,0.00,what,0,0,0,0,what age is the person?,80-year-old ,80-year-old,29 years old,29 year old,1,0,1,0
+100,0,2,cosine,2347.1019325256348,10,5,0.00,0.00,what,0,0.16666666666666666,0.3333333333333333,0.2222222222222222,What types of tweets does Murdoch write?,"about family, work and politics, ",famili work polit,"1. Family-related
+    2. Work-related
+    3. Political",1. family-rel 2. work-rel 3. polit,1,1,0,0
+100,0,2,cosine,2372.9019181728363,10,6,0.00,0.00,other,1,1.0,1.0,1.0,Which news channel was this information confirmed to?,CNN ,cnn, CNN,cnn,0,0,0,0
+100,0,2,cosine,2372.9020733833313,10,7,0.00,1.00,what,,,,,What company does the person work for?,,,,,,,,
+100,0,2,cosine,2402.65603017807,10,8,0.00,0.00,what,0,0,0,0,What is number of followers Murdoch has?,"45,000 ","45,000",4 (followed by Jack Dorsey),4 follow jack dorsey,1,0,1,0
+100,0,2,cosine,2430.4473073482513,11,0,0.00,0.33,what,0,0,0,0,What is the HBO series called?,"""Entourage"" ",`` entourag '',"1. Game of Thrones
+    2. Westworld
+    3. Chernobyl
+    4. The Sopranos
+    5. Veep",1. game throne 2. westworld 3. chernobyl 4. soprano 5. veep,1,1,0,0
+100,0,2,cosine,2457.891925573349,11,1,0.00,0.00,who,0,0.3333333333333333,1.0,0.5,"Who has ideas for an ""Entourage"" movie?",Piven: ,piven, Jeremy Piven (has) ideas,jeremi piven idea,1,0,0,1
+100,0,2,cosine,2486.1565985679626,11,2,0.00,0.00,what,0,1.0,0.5,0.6666666666666666,"What network is ""Entourage"" on?",HBO's ,hbo 's, HBO,hbo,1,1,0,0
+100,0,2,cosine,2513.6797971725464,11,3,0.00,0.00,who,1,1.0,1.0,1.0,Who plays a used car salesman?,Jeremy Piven ,jeremi piven, Jeremy Piven,jeremi piven,0,0,0,0
+100,0,2,cosine,2544.3040523529053,11,4,0.00,0.00,who,0,0.5,1.0,0.6666666666666666,Who does Jeremy Piven play?,a used car salesman ,use car salesman," Used car salesman (in ""The Goods"")",use car salesman `` good '',1,1,0,0
+100,0,2,cosine,2561.0262637138367,11,5,0.00,0.00,what,0,0,0,0,What is the name of the movie?,"""The Goods."" ",`` good '',300,300,1,1,0,0
+100,0,2,cosine,2587.4511263370514,11,6,0.00,0.00,what,0,0,0,0,What HBO series will continue as long as it stays fresh?,"""Entourage"" ",`` entourag '',1. Curb Your Enthusiasm (assuming that's the show mentioned),1. curb enthusiasm assum 's show mention,1,1,0,0
+100,0,2,cosine,2613.898927927017,12,0,0.00,0.00,how many,0,0.5,1.0,0.6666666666666666,How many flights were affects?,100 ,100,100 flights,100 flight,1,0,0,1
+100,0,2,cosine,2639.5150203704834,12,1,0.00,0.00,what,0,0,0,0,What did police say about why the man fled?,"his laptop computer bag tested positive for explosives, ",laptop comput bag test posit explos, Police didn't specify why the man fled.,polic n't specifi man fled,1,1,0,0
+100,0,2,cosine,2661.626517534256,12,2,0.00,0.00,other,0,0,0,0,is the search being called a manhunt?,huge ,huge, Yes,ye,1,0,1,0
+100,0,2,cosine,2686.2502360343933,12,3,0.33,0.00,what,0,0.5,1.0,0.6666666666666666,What terminal did passengers have to take?,"2, ",2, Terminal 2,termin 2,1,0,0,1
+100,0,2,cosine,2707.8680045604706,12,4,0.00,0.00,who,0,0.25,1.0,0.4,Who is seeking the man?,Police ,polic,1. Police (implied from context),1. polic impli context,1,0,0,1
+100,0,2,cosine,2731.6091873645782,12,5,0.00,0.00,what,0,0.5,1.0,0.6666666666666666,what tested positive for explosives?,laptop computer bag ,laptop comput bag,"1) Laptop computer bag
+    2) Bag",1 laptop comput bag 2 bag,1,1,0,0
+100,0,2,cosine,2754.185610771179,12,6,0.00,0.00,other,0,0,0,0,Have the police found the man yet?,They are still trying to find the ,still tri find, Unknown,unknown,1,0,1,0
+100,0,2,cosine,2779.7901887893677,12,7,0.00,0.00,what,0,0.5,1.0,0.6666666666666666,what terminal did the Passengers have to leave ?,"2, ",2, Terminal 2,termin 2,1,0,0,1
+100,0,2,cosine,2803.732878923416,13,1,0.00,0.33,what,0,0.16666666666666666,0.2,0.1818181818181818,What do analysts say about the Fashion industry job market say?,"""Fashion is being hit particularly hard ",`` fashion hit particularli hard, Analysts predict a challenging job market for fashion.,analyst predict challeng job market fashion,1,0,0,1
+100,0,2,cosine,2826.266722679138,13,2,0.00,0.00,what,0,0.5,0.5,0.5,What industry is being hit hard?,"""Fashion ",`` fashion,1. Fashion,1. fashion,1,0,0,1
+100,0,2,cosine,2849.46192073822,13,3,0.00,0.00,other,0,0.5,0.5,0.5,Which job market is being hit very hard?,"""Fashion ",`` fashion, Fashion industry,fashion industri,1,0,0,1
+100,0,2,cosine,2872.2918009757996,13,4,0.00,0.00,what,0,0,0,0,What is the name of the college?,"of Art and Design.
+",art design, Seminary (implied from context),seminari impli context,1,1,0,0
+100,0,2,cosine,2900.1392583847046,13,5,0.00,0.33,what,1,1.0,1.0,1.0,What did the designer make for years?,doll clothes ,doll cloth, Doll clothes,doll cloth,0,0,0,0
+100,0,2,cosine,2927.6017582416534,13,6,0.00,0.00,who,0,0.5,1.0,0.6666666666666666,Who do Students at Savannah College of Art and Design get advice from?,Yigal Azrouël ,yigal azrouël,1. Yigal Azrouël (Designer),1. yigal azrouël design,1,0,0,1
+100,0,2,cosine,2950.5411233901978,13,7,0.00,0.00,other,0,0,0,0,Which students get advice?,new graduates ,new graduat,23 students,23 student,1,1,0,0
+100,0,2,cosine,2973.7922530174255,13,8,0.00,0.00,who,0,1.0,0.6666666666666666,0.8,Who made doll clothing for years?,"""Jason Wu, ",`` jason wu, Jason Wu,jason wu,1,0,0,1
+100,0,2,cosine,2999.365935564041,14,0,0.00,0.00,when,0,0.5,1.0,0.6666666666666666,when does paul died?,Thursday ,thursday,2009 (Thursday),2009 thursday,1,0,0,1
+100,0,2,cosine,3028.876717567444,14,1,0.00,0.00,what,0,0,0,0,what wasn't particularly popular when introduced?,the Gibson Les Paul ,gibson le paul,1960s guitar,1960 guitar,1,0,1,0
+100,0,2,cosine,3053.785573244095,14,2,0.00,0.00,who,1,1.0,1.0,1.0,Who made recommendations on how to improve guitars?,Les Paul ,le paul, Les Paul,le paul,0,0,0,0
+100,0,2,cosine,3084.6182084083557,14,3,0.00,0.00,what,0,0,0,0,What wasn't popular when introduced?,Gibson Les Paul ,gibson le paul,80-year-old guitar,80-year-old guitar,1,1,0,0
+100,0,2,cosine,3108.036182641983,14,4,0.33,0.00,who,1,1.0,1.0,1.0,Who died on thursday at 94,Les Paul ,le paul, Les Paul,le paul,0,0,0,0
+100,0,2,cosine,3132.521526813507,14,5,0.00,0.00,what,1,1.0,1.0,1.0,What was Paul's age at death?,"94.
+",94,94,94,0,0,0,0
+100,0,2,cosine,3169.338224887848,14,7,0.00,0.00,what,0,0.09523809523809523,1.0,0.17391304347826084,what was the recommendations of les paul?,"how to improve guitars, ",improv guitar,"1. Solid body electric guitar design (1952)
+    2. Humbucker pickups for better sound quality
+    3. Tune-o-matic bridge and stopbar tailpiece for improved tuning stability",1. solid bodi electr guitar design 1952 2. humbuck pickup better sound qualiti 3. tune-o-mat bridg stopbar tailpiec improv tune stabil,1,1,0,0
+100,0,2,cosine,3194.41987323761,15,0,0.00,0.00,what,0,0,0,0,What did the French president say?,"urged the body to recognize Palestine as a non-member state, calling for a more definitive timetable for Israeli-Palestinian peace talks. But he also warned that a U.S. veto of the bid for full membership in the Security Council could be dangerous and might spark violence.
+",urg bodi recogn palestin non-memb state call definit timet israeli-palestinian peac talk also warn u.s. veto bid full membership secur council could danger might spark violenc, Not provided in the information given.,provid inform given,1,1,0,0
+100,0,2,cosine,3223.6977474689484,15,1,0.00,0.33,what,0,0,0,0,What did Obama do?,issued a sharp rebuke ,issu sharp rebuk,"1. Held a post-election news conference (Friday afternoon)
+    2. Reiterated his stance on diplomatic wrangling related to proposed move",1. held post-elect news confer friday afternoon 2. reiter stanc diplomat wrangl relat propos move,1,1,0,0
+100,0,2,cosine,3253.6394934654236,15,2,0.00,0.33,who,0,0,0,0,Who did Obama meet with?,Israeli Prime Minister Benjamin Netanyahu ,isra prime minist benjamin netanyahu,"1. Mahmoud Abbas (Palestinian Authority President)
+    2. Larijani (Iranian Parliament Speaker Ali Larijani)",1. mahmoud abba palestinian author presid 2. larijani iranian parliament speaker ali larijani,1,1,0,0
+100,0,2,cosine,3278.1776196956635,15,3,0.00,0.00,what,0,0,0,0,What did Frances President say?,"urged the body to recognize Palestine as a non-member state, calling for a more definitive timetable for Israeli-Palestinian peace talks. But he also warned that a U.S. veto of the bid for full membership in the Security Council could be dangerous and might spark violence.
+",urg bodi recogn palestin non-memb state call definit timet israeli-palestinian peac talk also warn u.s. veto bid full membership secur council could danger might spark violenc, Not provided (France was not mentioned),provid franc mention,1,1,0,0
+100,0,2,cosine,3303.1616971492767,15,4,0.00,0.00,what,0,0.1,0.14285714285714285,0.11764705882352941,What could spark violence?,a U.S. veto of the bid for full membership in the Security Council ,u.s. veto bid full membership secur council,"1. Incident described as an explosion of violence
+    2. Volatile U.S. political landscape",1. incid describ explos violenc 2. volatil u.s. polit landscap,1,1,0,0
+100,0,2,cosine,3331.9192786216736,15,5,0.00,0.00,what,0,0.25,0.1,0.14285714285714288,What did Argentina's president say?,"""non-inclusion of Palestine (at the United Nations) this year will create greater insecurity.""
+",`` non-inclus palestin unit nation year creat greater insecur '', Agreed with Larijani on non-inclusion of Rousseff,agre larijani non-inclus rousseff,1,1,0,0
+100,0,2,cosine,3363.002494096756,16,0,0.00,0.33,what,0,0.2,1.0,0.33333333333333337,What was he guilty of?,first-degree murder ,first-degre murder,"1) Not Guilty (of affray)
+    2) Indicted on seven counts including first-degree murder",1 guilti affray 2 indict seven count includ first-degre murder,1,1,0,0
+100,0,2,cosine,3392.165313243866,16,1,0.00,0.00,who,0,0,0,0,Who pleads not guilty to slaying woman?,Philip Markoff ,philip markoff, The man charged with first-degree murder does not admit guilt (pleads not guilty).,man charg first-degre murder admit guilt plead guilti,1,1,0,0
+100,0,2,cosine,3416.732966184616,16,2,0.00,0.00,what,0,0,0,0,What was Philip Markoff charged with?,killing a woman and robbing another ,kill woman rob anoth,"1) Murder
+    2) Robbery",1 murder 2 robberi,1,0,1,0
+100,0,2,cosine,3441.8995201587677,16,3,0.00,0.00,who,0,0,0,0,Who was killed?,"Julissa Brisman, ",julissa brisman,"1. Les Paul (musician)
+    2. Moninder Singh Pandher (convicted murderer)",1. le paul musician 2. monind singh pandher convict murder,1,1,0,0
+100,0,2,cosine,3467.609835624695,16,4,0.00,0.00,what,0,0.16666666666666666,0.5,0.25,What were the charges?,first-degree murder ,first-degre murder,"1st-degree murder charge, nonfatal hotel assault",1st-degre murder charg nonfat hotel assault,1,1,0,0
+100,0,2,cosine,3492.227792263031,16,5,0.50,0.50,when,0,0,0,0,when did this happen,Monday ,monday,20 September (year not specified),20 septemb year specifi,1,1,0,0
+100,0,2,cosine,3521.904364347458,16,7,0.50,0.50,what,0,0,0,0,What were both April incidents linked to?,"ads on the popular Web site Craigslist.
+",ad popular web site craigslist,16th April robbery attempt at a Holiday Inn Express and Senate debate on foiled Christmas Day attack are not directly linked.,16th april robberi attempt holiday inn express senat debat foil christma day attack directli link,1,1,0,0
+100,0,2,cosine,3521.904552221298,16,8,1.00,0.00,what,,,,,what many dead,,,,,,,,
+100,0,2,cosine,3552.4400861263275,17,0,0.00,0.00,what,0,0.3157894736842105,0.75,0.44444444444444436,What are the activities for?,"encourage your students to learn about and appreciate the history, culture and achievements of African-Americans.
+",encourag student learn appreci histori cultur achiev african-american,"1. Interactive elements and multimedia to engage students.
+    2. Research on chosen individuals using print resources.
+    3. Encourage appreciation of history and culture through learning.",1. interact element multimedia engag student 2. research chosen individu use print resourc 3. encourag appreci histori cultur learn,1,1,0,0
+100,0,2,cosine,3578.197650909424,17,1,0.00,0.00,what,0,0.16666666666666666,0.16666666666666666,0.16666666666666666,What does this month help students do?,"learn about and appreciate the history, culture and achievements of African-Americans.
+",learn appreci histori cultur achiev african-american, Recognize black American contributions throughout history.,recogn black american contribut throughout histori,1,1,0,0
+100,0,2,cosine,3613.704737663269,17,2,0.00,0.00,what,0,0.041666666666666664,1.0,0.07999999999999999,What month is Black History Month?,February ,februari,"1. February
+    2. 1926 (February)
+    3. Dr. Carter G. Woodson
+    4. Founder of Negro History Week and later expanded to Black History Month
+    5. Black History Museum",1. februari 2 1926 februari 3. dr. carter g. woodson 4. founder negro histori week later expand black histori month 5. black histori museum,1,1,0,0
+100,0,2,cosine,3634.013111114502,17,4,0.00,0.00,what,0,0,0,0,What does February celebrate?,"recognize the accomplishments of African-Americans, ",recogn accomplish african-american, Black History Month,black histori month,1,0,1,0
+100,0,2,cosine,3706.6636095046997,17,5,0.00,0.00,other,0,0.012048192771084338,1.0,0.02380952380952381,Which month is Black History Month?,February ,februari,"1. February
+    2. 1926 (February)
+    3. Dr. Carter G. Woodson
+    4. Founder of Negro History Week and later expanded to Black History Month
+    5. The National Association for the Advancement of Colored People (NAACP), in cooperation with other organizations, began a national celebration called ""Negro History Week"" in 1926. Dr. Carter G. Woodson, an African-American historian and educator, is credited as its founder. The event was held annually during the second week of February to coincide with the birthdays of Abraham Lincoln (February 12) and Frederick Douglass (February 14). In 1976, Negro History Week expanded into Black History Month in recognition of the important contributions made by African Americans throughout U.S. history.
+    6. February",1. februari 2 1926 februari 3. dr. carter g. woodson 4. founder negro histori week later expand black histori month 5. nation associ advanc color peopl naacp cooper organ began nation celebr call `` negro histori week '' 1926. dr. carter g. woodson african-american historian educ credit founder event held annual second week februari coincid birthday abraham lincoln februari 12 frederick douglass februari 14 1976 negro histori week expand black histori month recognit import contribut made african american throughout u.s. histori 6. februari,1,1,0,0
+100,0,2,cosine,3706.6639664173126,17,6,0.00,1.00,other,,,,,Can the activities be used for different grades?,,,,,,,,
+100,0,2,cosine,3757.973904132843,17,7,0.00,0.00,when,0,0.02127659574468085,1.0,0.04166666666666667,When is Black History Month?,February ,februari,"1. February
+
+    Dr. Carter G. Woodson was a historian who played an important role in establishing Black History Month. He founded the Association for the Study of Negro Life and History (ASNLH) in 1915, which later promoted the celebration of ""Negro History Week"" in February 1926 to coincide with the birthdays of Abraham Lincoln and Frederick Douglass. The week-long observance was expanded into a month-long celebration in 1970 by President Gerald Ford.",1. februari dr. carter g. woodson historian play import role establish black histori month found associ studi negro life histori asnlh 1915 later promot celebr `` negro histori week '' februari 1926 coincid birthday abraham lincoln frederick douglass week-long observ expand month-long celebr 1970 presid gerald ford,1,1,0,0
+100,0,2,cosine,3785.4550383090973,17,8,0.00,0.00,what,0,0.2,0.5,0.28571428571428575,What do the students learn?,"the history, culture and achievements of African-Americans.
+",histori cultur achiev african-american,"1. History of the milestone
+    2. Importance to future generations
+    3. Cultural significance",1. histori mileston 2. import futur gener 3. cultur signific,1,1,0,0
+100,0,2,cosine,3814.851996898651,18,0,0.00,0.00,what,0,0,0,0,What requires unified action?,"confronting various world crises, such as climate change and food shortages, ",confront variou world crise climat chang food shortag,"1) A majority vote in General Assembly for membership
+    2) Negotiating statehood recognition at U.N. General Assembly",1 major vote gener assembl membership 2 negoti statehood recognit u.n. gener assembl,1,1,0,0
+100,0,2,cosine,3814.852165699005,18,1,0.00,1.00,what,,,,,What will the UN decide on?,,,,,,,,
+100,0,2,cosine,3814.9483811855316,18,3,0.00,1.00,what,,,,,what do global challenges require?,,,,,,,,
+100,0,2,cosine,3838.1677174568176,18,4,0.00,0.33,what,0,0,0,0,what does Gadhafi say UN security council brings?,"crises, such as climate change and food shortages, ",crise climat chang food shortag, Permanent members (United States included),perman member unit state includ,1,1,0,0
+100,0,2,cosine,3884.4544084072113,18,5,0.00,0.00,what,0,0.06060606060606061,0.18181818181818182,0.09090909090909091,What does Gadhafi say?,"called for world unity in confronting various world crises, such as climate change and food shortages, ",call world uniti confront variou world crise climat chang food shortag,"1. Libya will not give up its nuclear program (if it has one)
+    2. He calls for a new world order without the United Nations or NATO
+    3. Accuses the West of hypocrisy and double standards
+    4. Claims to have evidence that al-Qaeda was behind 9/11 attacks
+    5. Suggests a one-world government under his leadership",1. libya give nuclear program one 2. call new world order without unit nation nato 3. accus west hypocrisi doubl standard 4. claim evid al-qaeda behind 9/11 attack 5. suggest one-world govern leadership,1,0,0,1
+100,0,2,cosine,3915.127665042877,18,6,0.00,0.00,what,0,0,0,0,What is unfair?,"the structure of the U.N. Security Council, ",structur u.n. secur council,"1. The advertisers boycotting the paper due to a cartoon they found offensive.
+    2. The newspaper publishing the controversial cartoon without considering potential backlash.",1. advertis boycot paper due cartoon found offens 2. newspap publish controversi cartoon without consid potenti backlash,1,0,1,0
+100,0,2,cosine,3949.1070210933685,18,7,0.00,0.00,what,0,0,0,0,what did Libyan leader tell UN general assembly?,"He broached conspiracy theories, urged probes into U.S. military activities, and took aim at the structure and the actions of the Security Council, ",broach conspiraci theori urg probe u.s. militari activ took aim structur action secur council,"1. Rambling speech
+    2. Request for U.N. support
+    3. Meeting with Ban Ki-moon",1. rambl speech 2. request u.n. support 3. meet ban ki-moon,1,1,0,0
+100,0,2,cosine,3972.817100048065,18,8,0.00,0.00,what,0,0.7142857142857143,1.0,0.8333333333333333,What were the five nations?,"United States, Russia, China, France ",unit state russia china franc," United States, Russia (USSR), China, France, Britain",unit state russia ussr china franc britain,1,0,0,1
+100,0,2,cosine,3973.1996743679047,19,1,0.50,1.00,who,,,,,Who has turned down a switch?,,,,,,,,
+100,0,2,cosine,3998.753267288208,19,2,0.33,0.33,who,0,0,0,0,Who did he choose instead?,to Bundesliga club Stuttgart ,bundesliga club stuttgart," He chose Rupert Murdoch's other newspaper, The Times of London.",chose rupert murdoch 's newspap time london,1,1,0,0
+100,0,2,cosine,4019.6689162254333,19,3,0.00,0.33,how,0,0,0,0,How long is the loan deal?,"the season.
+",season,1 week - 1 year,1 week 1 year,1,1,0,0
+100,0,2,cosine,4047.0087757110596,19,4,0.00,0.00,who,0,0.6666666666666666,1.0,0.8,Who is invoked in the swap transfer?,Zlatan Ibrahimovic and Samuel Eto'o ,zlatan ibrahimov samuel eto,"1. Zlatan Ibrahimovic
+    2. Samuel Eto'o",1. zlatan ibrahimov 2. samuel eto,1,0,0,1
+100,0,2,cosine,4070.4312772750854,19,5,0.00,0.00,who,0,0.6666666666666666,0.6666666666666666,0.6666666666666666,Who turned down a switch to Inter Milan?,midfielder Alexander Hleb ,midfield alexand hleb,1. Alexander Hleb,1. alexand hleb,1,0,0,1
+100,0,2,cosine,4098.965860366821,19,6,0.00,0.00,who,1,1.0,1.0,1.0,Who was expected to be part of the Ibrahimovic transfer?,Alexander Hleb ,alexand hleb, Alexander Hleb,alexand hleb,0,0,0,0
+100,0,2,cosine,4134.175191640854,19,7,0.00,0.00,what,0,0,0,0,What had been expected?,"be part of the swap deal that saw Zlatan Ibrahimovic and Samuel Eto'o switch clubs earlier this week.
+",part swap deal saw zlatan ibrahimov samuel eto switch club earlier week,"1. The formal application to be submitted or not decided (Shaath)
+    2. Visa application still under review (Monyela)
+    3. CNN reporters might have covered historical figure/event",1. formal applic submit decid shaath 2. visa applic still review monyela 3. cnn report might cover histor figure/ev,1,1,0,0
+100,0,2,cosine,4163.28856253624,19,8,0.00,0.00,what,1,1.0,1.0,1.0,What position does Alexander Hleb play?,midfielder ,midfield, Midfielder,midfield,0,0,0,0
+100,0,2,cosine,4193.597158432007,20,0,0.00,0.00,what,0,0.25,0.16666666666666666,0.2,What are suspects blamed for?,"bombings, torturing of civilians, conducting attacks and warning insurgents about upcoming Iraqi and U.S. military operations, ",bomb tortur civilian conduct attack warn insurg upcom iraqi u.s. militari oper,"1. Bombings
+    2. Torturing
+    3. Being part of terror cells",1. bomb 2. tortur 3. part terror cell,1,0,0,1
+100,0,2,cosine,4224.808474063873,20,1,0.00,0.00,what,0,0,0,0,What is one of the suspects believed to have done?,"conducted more than 12 attacks since July.
+",conduct 12 attack sinc juli,"1. Bombings
+    2. Torturing
+    3. Part of terror cells",1. bomb 2. tortur 3. part terror cell,1,1,0,0
+100,0,2,cosine,4250.222121477127,20,2,0.00,0.00,how many,0,0,0,0,how many attacks have been done since July?,12 ,12,12+ (implied),12+ impli,1,0,1,0
+100,0,2,cosine,4277.475719690323,20,4,0.00,0.00,how many,1,1.0,1.0,1.0,How many attacks is one of the suspects believed to have conducted?,12 ,12,12 or more,12,0,0,0,0
+100,0,2,cosine,4308.496758699417,20,7,0.00,0.00,who,0,1.0,0.5882352941176471,0.7407407407407407,Who do the suspects include?,"45 men from al Qaeda in Iraq and 21 suspected terrorists from an umbrella group of al Qaeda in Iraq known as The Islamic State of Iraq, ",45 men al qaeda iraq 21 suspect terrorist umbrella group al qaeda iraq known islam state iraq,45 men from al Qaeda in Iraq and 21 suspected terrorists from an umbrella group,45 men al qaeda iraq 21 suspect terrorist umbrella group,1,0,0,1
+100,0,2,cosine,4332.923473358154,21,0,0.33,0.00,what,0,0.75,0.75,0.75,what did nigeria become,fourth team to reach the semifinals ,fourth team reach semifin,4th team to reach semifinals,4th team reach semifin,1,0,0,1
+100,0,2,cosine,4359.709562778473,21,1,0.00,0.00,who,0,0,0,0,WHo booked their place,Egypt ,egypt, Unknown (Police did not know which flight Alexander Hleb was booked on),unknown polic know flight alexand hleb book,1,1,0,0
+100,0,2,cosine,4384.728021144867,21,2,0.00,0.00,who,0,0,0,0,Who does Nigeria play?,Ghana ,ghana,1) Semifinals (opponent not specified),1 semifin oppon specifi,1,1,0,0
+100,0,2,cosine,4406.052818775177,21,3,0.00,0.00,who,0,0,0,0,Who are the defending champions?,Egypt ,egypt,1. Real Madrid (Spain),1. real madrid spain,1,0,1,0
+100,0,2,cosine,4431.43462061882,21,4,0.00,0.00,what,0,0,0,0,what did egypt do,book ,book, Egypt denied Dalai Lama's visit.,egypt deni dalai lama 's visit,1,1,0,0
+100,0,2,cosine,4457.1668837070465,21,5,0.00,0.00,how many,0,0,0,0,how many goals did egypt score,3-1 ,3-1,2,2,1,0,1,0
+100,0,2,cosine,4483.9162747859955,21,7,0.00,0.33,what,0,0,0,0,What is the competition,African Nations Cup semifinals ,african nation cup semifin,"1. Newspapers/Magazines
+    2. Online News Sites
+    3. Broadcast Media (TV & Radio)",1. newspapers/magazin 2. onlin news site 3. broadcast media tv radio,1,1,0,0
+100,0,2,cosine,4509.014965772629,21,8,0.00,0.00,how many,0,0,0,0,Egypt scored how many goals?,Two ,two,2,2,1,0,1,0
+100,0,2,cosine,4541.478040933609,22,1,0.00,0.33,who,0,0.06666666666666667,1.0,0.125,Who else could have cared for the kids?,no one ,one,"1. Her spouse (if she has one)
+    2. Relatives or friends
+    3. Childcare center/daycare
+    4. Military child care services (if available)",1. spous one 2. rel friend 3. childcar center/daycar 4. militari child care servic avail,1,1,0,0
+100,0,2,cosine,4563.918254613876,22,2,0.00,0.33,what,0,0.3333333333333333,0.5,0.4,what did the soldier report,reported for duty ,report duti, Duty with her children present,duti children present,1,0,0,1
+100,0,2,cosine,4563.9184465408325,22,3,0.50,1.00,what,,,,,what was the argument about,,,,,,,,
+100,0,2,cosine,4586.504165887833,22,4,0.00,0.00,when,0,1.0,1.0,1.0,When did she leave?,June 2005. ,june 2005,2005 (June),2005 june,1,1,0,0
+100,0,2,cosine,4609.933216810226,22,6,0.00,0.00,what,0,0.3333333333333333,0.09090909090909091,0.14285714285714288,What did the soldier say?,"""I'm a human being. I need to take care of my children. They don't have anybody else,"" ",`` 'm human need take care children n't anybodi els '', She reported for duty with her children.,report duti children,1,1,0,0
+100,0,2,cosine,4632.094811439514,22,8,0.00,0.00,where,0,0,0,0,Where does the woman live?,"Davidson, North Carolina, ",davidson north carolina, Unknown (not provided),unknown provid,1,0,1,0
+100,0,2,cosine,4660.625165224075,23,1,0.00,0.00,what,0,0,0,0,What was on the cereal boxes they dumped?,Michael Phelps ,michael phelp,2 tons of cereal,2 ton cereal,1,1,0,0
+100,0,2,cosine,4688.651547193527,23,2,0.00,0.00,who,0,0.8,1.0,0.888888888888889,Who received the boxes of cereal?,San Francisco Food Bank ,san francisco food bank,1) San Francisco Food Bank,1 san francisco food bank,1,0,0,1
+100,0,2,cosine,4718.641274929047,23,4,0.00,0.00,who,0,0.6666666666666666,1.0,0.8,Whose face was on the cereal boxes that were dumped?,Michael Phelps ,michael phelp, Michael Phelps's,michael phelp 's,1,0,0,1
+100,0,2,cosine,4745.710117101669,23,5,0.00,0.33,how,0,0.5,0.5,0.5,Kellogg's donated how much cereal?,two tons ,two ton,2 tons,2 ton,1,0,0,1
+100,0,2,cosine,4775.892224311829,23,6,0.00,0.00,what,0,0.4,0.6666666666666666,0.5,What did Kellogg donate?,two tons of cereal ,two ton cereal,2 tons of Michael Phelps-branded cereal,2 ton michael phelps-brand cereal,1,0,0,1
+100,0,2,cosine,4800.699308395386,23,7,0.00,0.00,what,0,0,0,0,What did the director say?,"With food banks across the country reporting shortages of food, the donation was a welcome one, ",food bank across countri report shortag food donat welcom one, The director granted Pagan's request.,director grant pagan 's request,1,1,0,0
+100,0,2,cosine,4828.554716587067,23,8,0.00,0.00,how many,0,0,0,0,How many tons of cereal did Kelloggs donate?,two ,two,2 tons,2 ton,1,0,1,0
+100,0,2,cosine,4856.016912937164,24,0,0.00,0.33,who,0,0,0,0,Who is the President of Kyrgyzstan?,Kurmanbek Bakiyev ,kurmanbek bakiyev, Roza Otunbayeva (as of 2011),roza otunbayeva 2011,1,1,0,0
+100,0,2,cosine,4881.656311273575,24,1,0.00,0.00,what,0,0.4,1.0,0.5714285714285715,What is the Kyrgyzstan president doing?,signed a bill ,sign bill, Signing a bill to close an air base.,sign bill close air base,1,0,0,1
+100,0,2,cosine,4907.915504455566,24,2,0.00,0.33,who,0,0,0,0,Who is working to keep the operation open?,the United States ,unit state,1) The office (or its staff).,1 offic staff,1,0,1,0
+100,0,2,cosine,4933.347944259644,24,3,0.00,0.00,what,0,0.5,0.2727272727272727,0.3529411764705882,What is the Manas baseusedfor?,"Manas Air Base in Kyrgyzstan serves as a U.S. supply route for troops and supplies into Afghanistan.
+",mana air base kyrgyzstan serv u.s. suppli rout troop suppli afghanistan, The Manas base was used for military operations in Afghanistan.,mana base use militari oper afghanistan,1,1,0,0
+100,0,2,cosine,4958.216932296753,24,4,0.00,0.33,who,0,0,0,0,Who may allow US Military supplies?,"Tajikistan and Uzbekistan, ",tajikistan uzbekistan, Countries allowing passage,countri allow passag,1,1,0,0
+100,0,2,cosine,4980.775372028351,24,5,0.00,0.00,what,1,1.0,1.0,1.0,What country is acting similarly to Tajikistan?,Uzbekistan ,uzbekistan, Uzbekistan,uzbekistan,0,0,0,0
+100,0,2,cosine,5006.115702390671,24,6,0.00,0.00,who,0,0,0,0,Who was used to transport key supplies?,Manas Air Base in Kyrgyzstan ,mana air base kyrgyzstan, Shuttle retrieval arm,shuttl retriev arm,1,1,0,0
+100,0,2,cosine,5030.692606210709,24,7,0.00,0.00,where,1,1.0,1.0,1.0,Where is the Manas base?,Kyrgyzstan ,kyrgyzstan, Kyrgyzstan,kyrgyzstan,0,0,0,0
+100,0,2,cosine,5060.544934749603,24,8,0.00,0.33,who,0,0,0,0,Who will allow U.S military supplies to head to Afghanistan?,Tajikistan and Uzbekistan ,tajikistan uzbekistan,"1) Russia (based on the first sentence)
+    2) Countries involved in regional supply network (based on the second sentence)",1 russia base first sentenc 2 countri involv region suppli network base second sentenc,1,1,0,0
+100,0,2,cosine,5092.044800519943,24,9,0.00,0.00,what,0,0,0,0,What countries may allow U.S. supplies?,Tajikistan and Uzbekistan ,tajikistan uzbekistan,"1) Netherlands (if they issue a US visa for cargo transportation)
+    2) Unspecified countries that agree to let U.S. cargo pass through on its way to Afghanistan",1 netherland issu us visa cargo transport 2 unspecifi countri agre let u.s. cargo pass way afghanistan,1,1,0,0
+100,0,2,cosine,5113.594751119614,25,0,0.00,0.33,what,0,1.0,0.18181818181818182,0.3076923076923077,What did Frank Jackson say?,"""I love my niece very much and while she has made some decisions that have not been in her best interest, she has my full support,"" ",`` love niec much made decis best interest full support '', He has my full support.,full support,1,1,0,0
+100,0,2,cosine,5139.8615629673,25,1,0.00,0.00,what,0,0,0,0,What does Jackson say of his niece?,"""I love my ",`` love, He has her full support.,full support,1,0,1,0
+100,0,2,cosine,5173.479704141617,25,2,0.00,0.00,who,0,0,0,0,With who has Lori Frazier been living between 2005 and 2007?,Anthony ,anthoni, With Sowell (between 2005 and 2007),sowel 2005 2007,1,1,0,0
+100,0,2,cosine,5202.692757368088,25,3,0.00,0.00,what,0,0,0,0,What is Sowell charged with?,murder ,murder,"1) New charges (not specified)
+    2) Investigation for potential foreign links",1 new charg specifi 2 investig potenti foreign link,1,0,1,0
+100,0,2,cosine,5224.92897439003,25,5,0.33,0.00,who,0,0,0,0,Who Jackson loves?,"Lori Frazier, ",lori frazier, Christ (or Jesus),christ jesu,1,0,1,0
+100,0,2,cosine,5251.757155895233,25,6,0.00,0.00,who,0,0,0,0,Who did Lori Frazier live with?,Anthony ,anthoni, With Mayor Frank Jackson (her uncle).,mayor frank jackson uncl,1,1,0,0
+100,0,2,cosine,5280.225208520889,25,7,0.00,0.00,what,0,0.14285714285714285,1.0,0.25,what is Anthony Sowell charged with?,murder ,murder,11 counts of murder and 1 count of aggravated burglary,11 count murder 1 count aggrav burglari,1,0,0,1
+100,0,2,cosine,5314.320212125778,25,8,0.00,0.00,when,0,0,0,0,When did Lori Frazier live with Anthony Sowell?,2005 to 2007 ,2005 2007,2 years before 2010 (based on information that their relationship ended two years prior to his arrest),2 year 2010 base inform relationship end two year prior arrest,1,1,0,0
+100,0,2,cosine,5348.605179309845,26,0,0.50,0.50,what,0,0.07142857142857142,0.3333333333333333,0.11764705882352941,What name does the girl respond to?,"""Amber"" ",`` amber '',"1. Amber (if she has no idea whether it's her true name)
+    2. Japanese Name (if the message on her arm is of Japanese origin)",1. amber idea whether 's true name 2. japanes name messag arm japanes origin,1,0,0,1
+100,0,2,cosine,5375.266897439957,26,1,0.00,0.00,what,1,1.0,1.0,1.0,What was the girl's height?,"5 feet, 6 inches ",5 feet 6 inch,5 feet 6 inches,5 feet 6 inch,0,0,0,0
+100,0,2,cosine,5403.686203241348,26,2,0.00,0.00,when,1,1.0,1.0,1.0,when was the girl found,12:30 a.m. October 9 ,12:30 a.m. octob 9,"12:30 a.m., October 9",12:30 a.m. octob 9,0,0,0,0
+100,0,2,cosine,5428.482054948807,26,3,0.00,0.00,what,0,0.5,0.5,0.5,On what day was the girl found?,12:30 a.m. October 9 ,12:30 a.m. octob 9,9th October (or Oct 9),9th octob oct 9,1,0,0,1
+100,0,2,cosine,5452.01571893692,26,4,0.00,0.00,what,0,0,0,0,What age range do doctors believe the girl is?,"between 14 and 17.
+",14 17,14-17 years old,14-17 year old,1,1,0,0
+100,0,2,cosine,5473.715764045715,26,5,0.00,0.00,what,0,0.5,1.0,0.6666666666666666,what age is the girl,"between 14 and 17.
+",14 17,14 - 17 years old,14 17 year old,1,1,0,0
+100,0,2,cosine,5503.874160528183,26,7,0.00,0.00,what,0,0.09090909090909091,0.3333333333333333,0.14285714285714288,what is the girl called,"""Amber"" ",`` amber '',"1) Amber (if she responds to this name)
+    2) Unknown (if she has no idea whether it's her true name)",1 amber respond name 2 unknown idea whether 's true name,1,0,0,1
+100,0,2,cosine,5535.398540258408,26,8,0.00,0.00,where,0,0.2222222222222222,1.0,0.3636363636363636,Where was the girl found?,midtown Manhattan ,midtown manhattan,12:30 a.m. October 9 outside Covenant House (midtown Manhattan),12:30 a.m. octob 9 outsid coven hous midtown manhattan,1,0,0,1
+100,0,2,cosine,5536.153285741806,27,0,1.00,0.00,when,,,,,"Highlights Anil Dash says Internet was designed to endure disasters, free up communication Dash: If Web's goal is decentralization, why was Twitter crash so disabling for many? Dash reminds us that social networks come and go; remember when AOL ruled? Web users should take charge of their own communication efforts, Dash urges Q1:",,,,,,,,
+100,0,2,cosine,5536.191518306732,27,2,1.00,0.00,when,,,,,"Dash: If Web's goal is decentralization, why was Twitter crash so disabling for many? Dash reminds us that social networks come and go; remember when AOL ruled? Web users should take charge of their own communication efforts, Dash urges Q1:  Write a question that relates to a highlight. Q2:",,,,,,,,
+100,0,2,cosine,5536.191773176193,27,3,0.00,1.00,what,,,,,What should web users do?,,,,,,,,
+100,0,2,cosine,5536.191811084747,27,4,1.00,0.00,what,,,,,what anil dash says,,,,,,,,
+100,0,2,cosine,5536.19184422493,27,5,0.00,1.00,who,,,,,who should take charge,,,,,,,,
+100,0,2,cosine,5562.36455488205,27,6,0.00,0.00,what,0,0,0,0,What did Anil Dash say the internet was designed for?,"to have no central point of failure, ",central point failur, Communication systems that could endure.,commun system could endur,1,1,0,0
+100,0,2,cosine,5562.406199216843,27,8,1.00,0.00,when,,,,,"ters, free up communication Dash: If Web's goal is decentralization, why was Twitter crash so disabling for many? Dash reminds us that social networks come and go; remember when AOL ruled? Web users should take charge of their own communication efforts, Dtrash",,,,,,,,
+100,0,2,cosine,5588.746689081192,28,0,0.00,0.00,who,0,0,0,0,Who is appearing in court?,"Roy Lynn Oakley, ",roy lynn oakley,114 witnesses,114 wit,1,1,0,0
+100,0,2,cosine,5619.9666039943695,28,1,0.00,0.50,who,0,0,0,0,"Who assigned Oakley the job of breaking machine parts into pieces, and then pitching them?em","Bechtel Jacobs, the Department of Energy's prime environmental management contractor ",bechtel jacob depart energi 's prime environment manag contractor,1) Unknown (from provided information),1 unknown provid inform,1,1,0,0
+100,0,2,cosine,5642.949734210968,28,2,0.00,0.00,what,0,0,0,0,what did the man do?,stealing restricted nuclear ,steal restrict nuclear, Left hastily with materials.,left hastili materi,1,1,0,0
+100,0,2,cosine,5667.577779531479,28,3,0.00,0.00,what,0,0,0,0,what did the man try to do?,"sell the ""pieces of scrap"" ",sell `` piec scrap '', He tried to divulge classified materials.,tri divulg classifi materi,1,0,1,0
+100,0,2,cosine,5693.203862905502,28,4,0.00,0.00,where,1,1.0,1.0,1.0,Where did the material come from?,"East Tennessee Technology Park.
+",east tennesse technolog park, From East Tennessee Technology Park,east tennesse technolog park,0,0,0,0
+100,0,2,cosine,5721.724229097366,28,5,0.00,0.00,what,0,0,0,0,What did Oakley do with the machine part pieces?,"attempted to sell the ""pieces of scrap"" to someone he thought was a French agent ",attempt sell `` piec scrap '' someon thought french agent, Threw away or sold them.,threw away sold,1,0,1,0
+100,0,2,cosine,5749.076368808746,28,7,0.00,0.00,where,1,1.0,1.0,1.0,Where is Roy Lynn Oakley appearing?,federal court in Knoxville ,feder court knoxvil, In federal court in Knoxville,feder court knoxvil,0,0,0,0
+100,0,2,cosine,5774.576122522354,28,8,0.00,0.00,what,0,0.2,1.0,0.33333333333333337,what did roy Lyn  in tennessee,appeared ,appear, Appeared in court for handling classified materials.,appear court handl classifi materi,1,0,0,1
+100,0,2,cosine,5803.071573019028,28,9,0.00,0.00,who,0,0.75,1.0,0.8571428571428571,Who appeared in Court in Tennessee?,"Roy Lynn Oakley, ",roy lynn oakley,1. Roy Lynn Oakley,1. roy lynn oakley,1,0,0,1
+100,0,2,cosine,5835.399978399277,29,0,0.00,0.00,who,0,0,0,0,Who is responsible for developing the software that Iranian protesters used to refresh web page to hack official sites?,Ryan Kelly: ,ryan kelli, The developer of the software is unnamed.,develop softwar unnam,1,1,0,0
+100,0,2,cosine,5859.5026512146,29,1,0.00,0.00,what,0,0.8,0.6666666666666666,0.7272727272727272,What does page reboot software mean?,"automatically refreshes a Web page every few seconds, ",automat refresh web page everi second, Automatically refreshes a Web page repeatedly.,automat refresh web page repeatedli,1,1,0,0
+100,0,2,cosine,5859.502824544907,29,2,1.00,0.00,other,,,,,es demasiado iraqui en esta,,,,,,,,
+100,0,2,cosine,5881.735559463501,29,4,0.00,0.33,what,1,1.0,1.0,1.0,what forced ryan kelly to temporarily suspend it?,heavy traffic ,heavi traffic, Heavy traffic,heavi traffic,0,0,0,0
+100,0,2,cosine,5881.780394077301,29,6,1.00,0.00,other,,,,,dame api tu sabes que es asi,,,,,,,,
+100,0,2,cosine,5911.52690577507,29,7,0.00,0.00,what,0,0,0,0,What is actually happens to a web site when page reboot software sends a barrage of hits to it?,"users as ""unobtainable.""
+",user `` unobtain '', Overloads host server.,overload host server,1,1,0,0
+100,0,2,cosine,5912.026031970978,30,0,0.00,1.00,what,,,,,What is denied,,,,,,,,
+100,0,2,cosine,5942.60490322113,30,1,0.00,0.00,what,0,0.14285714285714285,0.3333333333333333,0.2,What did Tony Blairs spokesman say?,"or any of his office systems.""
+",offic system '', Spokesman said information was not obtained from Tony Blair or his office.,spokesman said inform obtain toni blair offic,1,1,0,0
+100,0,2,cosine,5942.605069875717,30,2,1.00,0.00,other,,,,,trash - fuck off,,,,,,,,
+100,0,2,cosine,5972.6765105724335,30,4,0.00,0.00,what,0,0,0,0,What is the name of the hacker group ?,TeaMp0isoN ,teamp0ison,"1. Lulz Security
+    2. Team Poison",1. lulz secur 2. team poison,1,1,0,0
+100,0,2,cosine,5997.208206892014,30,6,0.00,0.00,what,1,1.0,1.0,1.0,What information was stolen?,Personal details about Tony Blair ,person detail toni blair, Personal details about Tony Blair,person detail toni blair,0,0,0,0
+100,0,2,cosine,6024.802717447281,30,7,0.00,0.00,what,0,0.75,0.375,0.5,what did he say about the details,"""This information has not been obtained from Tony Blair or any of his office systems.""
+",`` inform obtain toni blair offic system '', He said that the information was not obtained from him or his office.,said inform obtain offic,1,1,0,0
+100,0,2,cosine,6063.119255065918,31,0,0.00,0.33,what,0,0,0,0,What did the spokesman say about the President?,unprecedented effort to reach out ,unpreced effort reach,"1. Obama reiterated that he believes a...
+    2. Gibbs said, ""I think what you saw from this president was an...""
+    3. Taylor said it is unclear whether the...",1. obama reiter believ ... 2. gibb said `` think saw presid ... '' 3. taylor said unclear whether ...,1,0,1,0
+100,0,2,cosine,6087.596703290939,31,1,0.00,0.33,other,0,0.6666666666666666,1.0,0.8,Amount of money that the bill is worth?,$787 billion ,787 billion,787 billion dollars,787 billion dollar,1,0,0,1
+100,0,2,cosine,6112.346546888351,31,2,0.00,0.33,what,0,0.3333333333333333,0.6666666666666666,0.4444444444444444,What did Congress pass?,a massive stimulus bill ,massiv stimulu bill,787 billion dollar economic stimulus bill,787 billion dollar econom stimulu bill,1,1,0,0
+100,0,2,cosine,6132.508349657059,31,3,0.00,0.00,who,0,0.5,1.0,0.6666666666666666,Who will sign the bill on Tuesday?,Obama ,obama, Barack Obama,barack obama,1,0,0,1
+100,0,2,cosine,6172.107720851898,31,4,0.00,0.33,what,0,0,0,0,What is Obama expected to do on Tuesday?,sign the bill ,sign bill,"1. Hold a news conference (Friday)
+    2. Apply campaign message of change (Saturday - Larijani)
+    3. Change political stance (Sunday - Top Republican lawmakers)
+    4. Not rush into decisions (Friday - Obama)",1. hold news confer friday 2. appli campaign messag chang saturday larijani 3. chang polit stanc sunday top republican lawmak 4. rush decis friday obama,1,0,1,0
+100,0,2,cosine,6200.375368595123,31,7,0.00,0.00,when,0,0,0,0,When is Obama expected to sign the bill?,Tuesday ,tuesday,"1. Friday (for submitting U.N. membership request)
+    2. Not specified (for signing the bill)",1. friday submit u.n. membership request 2. specifi sign bill,1,0,1,0
+100,0,2,cosine,6230.302153587341,31,9,0.00,0.00,what,0,0,0,0,What did the spokesman say?,"""We're happy that Congress, in a bipartisan way, took steps to make whatever happens in this recession easier to take for the American people."" ",`` 're happi congress bipartisan way took step make whatev happen recess easier take american peopl '', The spokesman said that the information has not been obtained from Tony Blair or any of his associates.,spokesman said inform obtain toni blair associ,1,1,0,0
+100,0,2,cosine,6252.120158195496,32,0,0.00,0.00,other,0,0,0,0,Was he wearing a helmet?,a ,, Yes,ye,1,0,1,0
+100,0,2,cosine,6273.49721288681,32,1,0.00,0.00,who,0,0,0,0,Who died in Colorado ski accident?,John McWethy ,john mcwethi,1. Skier (or Skiing victim),1. skier ski victim,1,1,0,0
+100,0,2,cosine,6273.497410535812,32,2,0.00,1.00,what,,,,,"""Unflappable"" reporter ""really did have handle on what life was for,"" ex-colleague says",,,,,,,,
+100,0,2,cosine,6295.380907535553,32,3,0.00,0.00,who,1,1.0,1.0,1.0,Who was wearing a helmet?,McWethy ,mcwethi, McWethy,mcwethi,0,0,0,0
+100,0,2,cosine,6315.433142662048,32,5,0.00,0.00,who,0,0.25,1.0,0.4,Who is the ABC president?,"David Westin.
+",david westin,"1. David Westin (without repeating ""president"")",1. david westin without repeat `` presid '',1,1,0,0
+100,0,2,cosine,6339.052842617035,32,6,0.00,0.00,what,0,0,0,0,What caused him to die?,injuries ,injuri, Pneumonia,pneumonia,1,0,1,0
+100,0,2,cosine,6368.0845630168915,32,7,0.00,0.00,what,0,0,0,0,What did he love to do?,ski ,ski,"1. Permission was not given; it's an alleged plot.
+    2. Carter G. Woodson established Black History Month.",1. permiss given 's alleg plot 2. carter g. woodson establish black histori month,1,1,0,0
+100,0,2,cosine,6392.248956441879,32,9,0.00,0.00,who,0,0.3333333333333333,0.5,0.4,Who died in a ski accident?,John McWethy ,john mcwethi,61-year old McWethy,61-year old mcwethi,1,1,0,0
+100,0,2,cosine,6418.469597578049,33,0,0.00,0.00,who,0,0.75,1.0,0.8571428571428571,Who has  joined inquiry into Jackson's death?,The Drug Enforcement Administration ,drug enforc administr, Drug Enforcement Administration (DEA),drug enforc administr dea,1,0,0,1
+100,0,2,cosine,6444.578329801559,33,2,0.33,0.00,how many,0,0,0,0,How many days before Jackson's death was the video taken?,two nights ,two night,2 days,2 day,1,1,0,0
+100,0,2,cosine,6469.7111303806305,33,3,0.00,0.00,where,0,0,0,0,Where will Jackon's memorial be?,"Staples Center in Los Angeles, ",stapl center lo angel, At Neverland Ranch (not specified),neverland ranch specifi,1,1,0,0
+100,0,2,cosine,6494.176062345505,33,4,0.00,0.00,who,0,0.6,1.0,0.7499999999999999,Who joins the inquiry into Jackson's death?,The Drug Enforcement Administration ,drug enforc administr,1. Drug Enforcement Administration (DEA),1. drug enforc administr dea,1,0,0,1
+100,0,2,cosine,6523.397040843964,33,5,0.00,0.00,how many,0,0,0,0,How many service tickets will be made available?,"11,000 ","11,000",11000,11000,1,0,1,0
+100,0,2,cosine,6551.349751710892,33,6,0.00,0.33,how many,0,0,0,0,How many memorial service tickets will be made available?,"11,000 ","11,000",11000,11000,1,0,1,0
+100,0,2,cosine,6572.638310670853,33,7,0.00,0.00,who,0,0.75,1.0,0.8571428571428571,Whose memorial will be Tuesday?,Michael Jackson's ,michael jackson 's, Michael Jackson's memorial,michael jackson 's memori,1,1,0,0
+100,0,2,cosine,6594.6575384140015,34,0,0.00,0.00,who,1,1.0,1.0,1.0,Who called the award legimate?,Ferrell ,ferrel, Ferrell himself,ferrel,0,0,0,0
+100,0,2,cosine,6617.314999103546,34,2,0.33,0.00,who,0,0.5,1.0,0.6666666666666666,Who does the award honor?,comedians ,comedian, Comedian Will Smith,comedian smith,1,0,0,1
+100,0,2,cosine,6617.3998119831085,34,5,0.00,1.00,what,,,,,What country is the award presented in?,,,,,,,,
+100,0,2,cosine,6617.400054931641,34,6,1.00,0.00,other,,,,,Comedy has its rules,,,,,,,,
+100,0,2,cosine,6640.24306344986,34,7,0.00,0.00,what,0,0,0,0,What did Ferrell say about the award?,"that recognizes comedy,"" and he was honored to receive it.
+",recogn comedi '' honor receiv, He called it the only legitimate prize.,call legitim prize,1,1,0,0
+100,0,2,cosine,6662.987263441086,34,8,0.00,0.33,what,1,1.0,1.0,1.0,What was fellow comedians reaction on Ferrell saying?,with praise ,prais, Praise,prais,0,0,0,0
+100,0,2,cosine,6688.821728944778,35,0,0.00,0.00,what,1,1.0,1.0,1.0,What do doctors speculate?,"that there is a biological foundation to gender identity, ",biolog foundat gender ident, There is a biological foundation to gender identity.,biolog foundat gender ident,0,0,0,0
+100,0,2,cosine,6741.124432563782,35,1,0.00,0.00,what,0,0,0,0,What do people rarely undergo?,"a gender transition and then want to reverse it, ",gender transit want revers,"1. Suffering or hardship voluntarily for a religious purpose (Martyrdom)
+    2. Miraculous intervention after death to prove holiness (Posthumous miracle)
+    3. Living a life of heroic virtue and sanctity (Heroism and Sanctity)
+    4. Fulfilling our basic obligations to those in need (Charity and Compassion)
+    5. Qualifications for sainthood include: faith, hope, charity, humility, obedience, poverty, chastity, and perseverance.",1. suffer hardship voluntarili religi purpos martyrdom 2. miracul intervent death prove holi posthum miracl 3. live life heroic virtu sanctiti heroism sanctiti 4. fulfil basic oblig need chariti compass 5. qualif sainthood includ faith hope chariti humil obedi poverti chastiti persever,1,1,0,0
+100,0,2,cosine,6766.595044136047,35,2,0.00,0.00,what,0,1.0,0.6666666666666666,0.8,What is the estimated percentage of transgendered Americans?,0.25 to 0.5 percent ,0.25 0.5 percent,0.25 to 0.5%,0.25 0.5,1,0,0,1
+100,0,2,cosine,6791.734488487244,35,3,0.00,0.00,what,0,0.5,0.6666666666666666,0.5714285714285715,What is the percentage of transgender Americans?,0.25 to 0.5 percent ,0.25 0.5 percent,0.25 to 0.5% (of American population),0.25 0.5 american popul,1,0,0,1
+100,0,2,cosine,6815.279488325119,35,5,0.00,0.00,what,0,0.6666666666666666,1.0,0.8,What do doctors speculate as the reason for gender identity?,biological foundation to ,biolog foundat, Biological foundation (implied),biolog foundat impli,1,0,0,1
+100,0,2,cosine,6841.631069898605,35,6,0.00,0.00,what,0,0.16666666666666666,0.5,0.25,What surgery do people undergo and then rarely want to reverse?,gender transition ,gender transit, Chest reconstruction (mastectomy) for females transitioning into males,chest reconstruct mastectomi femal transit male,1,0,0,1
+100,0,2,cosine,6864.771489143372,35,7,0.00,0.00,what,0,0.5,0.3333333333333333,0.4,What proportion of the American population is transgendered?,0.25 to 0.5 percent ,0.25 0.5 percent,4 percent,4 percent,1,0,0,1
+100,0,2,cosine,6887.95929312706,35,8,0.00,0.00,what,1,1.0,1.0,1.0,Biological foundation is an influence to what?,"gender identity, ",gender ident, Gender identity,gender ident,0,0,0,0
+100,0,2,cosine,6912.129841804504,36,0,0.00,0.00,who,0,0,0,0,Who managed the drug ring?,Tomas Medina Caracas ,toma medina caraca, Drug traffickers (managed),drug traffick manag,1,0,1,0
+100,0,2,cosine,6935.165172338486,36,1,0.00,0.00,who,0,0,0,0,Who was killed in an attack?,"Tomas Medina Caracas, ",toma medina caraca,1. The person who was killed is not specified in the provided information.,1. person kill specifi provid inform,1,1,0,0
+100,0,2,cosine,6962.617587804794,36,3,0.00,0.00,other,0,0,0,0,"Did ""El Negro Acacio"" help manage a cocaine network?",trafficking ,traffick," Yes, managed",ye manag,1,0,1,0
+100,0,2,cosine,6987.528936862946,36,4,0.00,0.00,when,0,0,0,0,When was he killed?,over the weekend ,weekend,50-year old Michael died (date unknown).,50-year old michael die date unknown,1,0,1,0
+100,0,2,cosine,7015.889003753662,36,5,0.00,0.50,who,1,1.0,1.0,1.0,Who killed Tomas Medina Caracas?,Colombian military ,colombian militari, Colombian military,colombian militari,0,0,0,0
+100,0,2,cosine,7015.96689748764,36,7,0.00,1.00,who,,,,,Who killed him?,,,,,,,,
+100,0,2,cosine,7041.866590023041,36,8,0.00,0.00,who,0,0,0,0,who is Tomas Medina?,Alleged cocaine trafficker and FARC rebel ,alleg cocain traffick farc rebel,1. Unknown (provided information does not specify his role or relationship to Michael Jackson),1. unknown provid inform specifi role relationship michael jackson,1,1,0,0
+100,0,2,cosine,7063.207857370377,37,1,0.00,0.00,who,0,0,0,0,Whose bodies were discovered Monday?,snowmobilers ,snowmobil,7 other bodies,7 bodi,1,1,0,0
+100,0,2,cosine,7086.414569854736,37,2,0.00,0.00,where,0,0,0,0,Where were they riding snowmobiles?,"in southern British Columbia, ",southern british columbia,1. Quebec (Canada),1. quebec canada,1,0,1,0
+100,0,2,cosine,7110.034363031387,37,3,0.00,0.00,when,0,0.6666666666666666,1.0,0.8,When were the bodies of the other missing snowboarders found?,a day after avalanches ,day avalanch,1 day after avalanches,1 day avalanch,1,0,0,1
+100,0,2,cosine,7138.129511833191,37,4,0.00,0.00,what,0,0,0,0,What number of riders managed to rescue themselves?,"""Two ",`` two,2,2,1,0,1,0
+100,0,2,cosine,7171.026967525482,37,5,0.00,0.00,where,0,0,0,0,Where had the group been snowmobiling?,"southern British Columbia, ",southern british columbia,"1. Montana (based on CNN's reporting)
+    2. Unknown (as no specific location was mentioned within the provided information)",1. montana base cnn 's report 2. unknown specif locat mention within provid inform,1,0,1,0
+100,0,2,cosine,7192.661161899567,37,6,0.00,0.00,what,0,0,0,0,What happened to the third victim?,buried ,buri,3rd victim hospitalized overnight,3rd victim hospit overnight,1,1,0,0
+100,0,2,cosine,7215.780975580215,37,8,0.00,0.00,what,0,0,0,0,What is the number of missing snowmobilers?,eight ,eight,8,8,1,1,0,0
+100,0,2,cosine,7250.5706782341,38,0,0.00,0.00,what,0,0.06666666666666667,0.5,0.11764705882352941,What does the tree do?,collecting carbon ,collect carbon,"1. Reduces carbon dioxide
+    2. Produces oxygen
+    3. Provides a habitat for wildlife
+    4. Generates energy from sunlight",1. reduc carbon dioxid 2. produc oxygen 3. provid habitat wildlif 4. gener energi sunlight,1,1,0,0
+100,0,2,cosine,7277.075917482376,38,3,0.00,0.00,what,0,0.3333333333333333,1.0,0.5,"What would the ""Synthetic tree"" capture?",carbon ,carbon, Carbon dioxide (CO2),carbon dioxid co2,1,1,0,0
+100,0,2,cosine,7300.885671138763,38,4,0.00,0.00,what,0,0.6666666666666666,0.5,0.5714285714285715,What would happen to the trapped carbon?,"in a chamber, compressed and stored as liquid ",chamber compress store liquid, Stored as liquid CO2,store liquid co2,1,0,0,1
+100,0,2,cosine,7337.841383695602,38,5,0.00,0.00,what,0,0,0,0,what did Broecker say?,"""I'm extremely excited about this. I think this is something that the world's going to have to have, unfortunately,"" ",`` 'm extrem excit think someth world 's go unfortun '',"1. Unclear (from Taylor)
+    2. He was reserved (Ackland)
+    3. Conspiracy theories, probes into U.S. military activities, and criticized the media (Broecker)",1. unclear taylor 2. reserv ackland 3. conspiraci theori probe u.s. militari activ critic media broecker,1,1,0,0
+100,0,2,cosine,7357.12206697464,38,6,0.00,0.00,what,0,0.3333333333333333,1.0,0.5,What university is working on this technology?,Columbia ,columbia,1. Columbia University,1. columbia univers,1,1,0,0
+100,0,2,cosine,7386.202350616455,38,8,0.00,0.00,who,0,0,0,0,Who is developing the technology?,Scientists in the United States ,scientist unit state,"1. Smart inventors (singular form: Lackner)
+    2. Naval facility in China Lake, California",1. smart inventor singular form lackner 2. naval facil china lake california,1,1,0,0
+100,0,2,cosine,7410.274651050568,39,0,0.00,0.33,when,1,1.0,1.0,1.0,When did rebels gain control?,1996 ,1996,1996,1996,0,0,0,0
+100,0,2,cosine,7439.905826330185,39,1,0.00,0.00,who,0,0,0,0,Who wants independent homeland?,The Liberation Tigers of Tamil Eelam (LTTE) ,liber tiger tamil eelam ltte,"1) People (from their right to come back to their homeland)
+    2) United States (hopes to retain the base)",1 peopl right come back homeland 2 unit state hope retain base,1,1,0,0
+100,0,2,cosine,7468.4383409023285,39,2,0.00,0.00,who,0,0.07692307692307693,1.0,0.14285714285714288,Who is making progress?,the military ,militari,"1. Military (in recapturing rebel territory)
+    2. Researcher (in writing a proposal for consideration by U.S. Department of Energy)",1. militari recaptur rebel territori 2. research write propos consider u.s. depart energi,1,0,0,1
+100,0,2,cosine,7496.661961555481,39,4,0.00,0.00,when,0,0,0,0,When did they do this?,"early Sunday morning, ",earli sunday morn,17 October 2006 - January 2007,17 octob 2006 januari 2007,1,1,0,0
+100,0,2,cosine,7522.556858778,39,5,0.00,0.33,who,0,0,0,0,Who wants an independent homeland?,Liberation Tigers of Tamil Eelam ,liber tiger tamil eelam,1) Palestinians (from the context of the passage),1 palestinian context passag,1,1,0,0
+100,0,2,cosine,7548.990189790726,39,6,0.00,0.00,other,0,0.6666666666666666,1.0,0.8,Which northern town did troops regain control of?,"Elephant Pass, ",eleph pass,1. Elephant Pass,1. eleph pass,1,0,0,1
+100,0,2,cosine,7573.3200850486755,39,7,0.00,0.00,what,0,0,0,0,What did they establish there?,military garrison ,militari garrison, They established information from Vatican archives.,establish inform vatican archiv,1,1,0,0
+100,0,2,cosine,7591.988061666489,39,8,0.00,0.00,who,0,0,0,0,Who gained control?,Sri Lankan soldiers ,sri lankan soldier,"1) Time Warner (company)
+    2) History makers (roles)",1 time warner compani 2 histori maker role,1,1,0,0
+100,0,2,cosine,7617.99792599678,40,0,0.00,0.00,who,1,1.0,1.0,1.0,Who died of cancer at age 64?,Malcolm McLaren ,malcolm mclaren, Malcolm McLaren,malcolm mclaren,0,0,0,0
+100,0,2,cosine,7641.689750671387,40,1,0.33,0.00,when,1,1.0,1.0,1.0,when did the band break up,1978 ,1978,1978,1978,0,0,0,0
+100,0,2,cosine,7662.718469619751,40,2,0.00,0.00,other,0,0.5,0.5,0.5,Can you name the manager,Malcolm McLaren ,malcolm mclaren, McLaren (manager),mclaren manag,1,1,0,0
+100,0,2,cosine,7686.021316766739,40,3,0.33,0.00,what,1,1.0,1.0,1.0,What happened in 1978,The Sex Pistols broke up ,sex pistol broke, The Sex Pistols broke up.,sex pistol broke,0,0,0,0
+100,0,2,cosine,7715.312979459763,40,4,0.00,0.00,who,0,0,0,0,Who was the onetime manager ?,Malcolm McLaren ,malcolm mclaren,"1. Katie Kay (former special adviser)
+    2. John Branca (executor)",1. kati kay former special advis 2. john branca executor,1,1,0,0
+100,0,2,cosine,7736.552210569382,40,5,0.00,0.33,other,0,0,0,0,Do you know his age,"64.
+",64,40 years old,40 year old,1,1,0,0
+100,0,2,cosine,7757.921832323074,40,6,0.00,0.00,what,1,1.0,1.0,1.0,What  broke up in 1978?,The Sex Pistols ,sex pistol, The Sex Pistols,sex pistol,0,0,0,0
+100,0,2,cosine,7757.921993494034,40,7,0.00,1.00,what,,,,,what did mclaren used to do,,,,,,,,
+100,0,2,cosine,7783.449729681015,40,8,0.00,0.00,what,0,0,0,0,what did he die of,cancer ,cancer,50-year old Michael died due to pending toxicology results.,50-year old michael die due pend toxicolog result,1,1,0,0
+100,0,2,cosine,7807.783782720566,41,3,0.00,0.00,who,0,0,0,0,who came back a year later?,an aid worker ,aid worker,1 year,1 year,1,0,1,0
+100,0,2,cosine,7830.643933534622,41,4,0.00,0.33,what,0,0,0,0,what did the girl survive?,Cyclone Nargis ,cyclon nargi,1. Electrocution,1. electrocut,1,1,0,0
+100,0,2,cosine,7865.871025562286,41,5,0.00,0.00,who,0,0,0,0,who was the aid worker,"Pam Sitko, ",pam sitko,"1. Aid worker is not specified.
+    2. William Daley, Ray LaHood, Kathleen are cabinet members (not aid workers or journalists).
+    3. The individual who has been involved with SCAD students over the years is not specified.",1. aid worker specifi 2. william daley ray lahood kathleen cabinet member aid worker journalist 3. individu involv scad student year specifi,1,1,0,0
+100,0,2,cosine,7890.76770734787,41,6,0.00,0.00,where,0,0.5,1.0,0.6666666666666666,where was the cyclone,Myanmar ,myanmar, Myanmar (Burma),myanmar burma,1,1,0,0
+100,0,2,cosine,7917.46533703804,41,7,0.00,0.00,what,0,0,0,0,what did the worker say?,"Nway -- like thousands of people in Myanmar -- is slowly recovering one year after Nargis demolished their country.
+",nway -- like thousand peopl myanmar -- slowli recov one year nargi demolish countri, The worker said the information was obtained in [ago].,worker said inform obtain ago,1,1,0,0
+100,0,2,cosine,7943.156111001968,42,0,0.00,0.00,who,0,0,0,0,whose car was found,"Burk, ",burk, Whose car? (Subject not specified),whose car subject specifi,1,1,0,0
+100,0,2,cosine,7980.714756727219,42,1,0.00,0.00,what,0,0.11764705882352941,1.0,0.21052631578947367,What is Courtney Larrell Lockhart charged with?,capital murder ,capit murder,"1) Capital murder during a robbery
+    2) Armed and forcible confinement of two women
+    3) Armed robbery
+    4) Stealing restricted items",1 capit murder robberi 2 arm forcibl confin two women 3 arm robberi 4 steal restrict item,1,0,0,1
+100,0,2,cosine,8017.0418536663055,42,3,0.00,0.00,what,0,0.06666666666666667,0.07692307692307693,0.07142857142857144,What happened to Lauren Burk?,"was found shot on North College Street, a few miles north of campus, on Tuesday night. She died later at a hospital.
+",found shot north colleg street mile north campu tuesday night die later hospit,"1. Killed (by a man)
+    2. Disappeared from Auburn University
+    3. Found in Manhattan with amnesia
+    4. Arrest made for her murder",1. kill man 2. disappear auburn univers 3. found manhattan amnesia 4. arrest made murder,1,1,0,0
+100,0,2,cosine,8041.596582889557,42,4,0.00,0.50,what,0,0,0,0,what did she do?,died ,die, She sought political asylum (for her children).,sought polit asylum children,1,0,1,0
+100,0,2,cosine,8071.434285879135,42,5,0.00,0.00,what,0,0,0,0,What age is Courtney Larrell Lockhart?,"23, ",23,14-17 (based on given information),14-17 base given inform,1,0,1,0
+100,0,2,cosine,8100.284840345383,42,6,0.00,0.00,what,0,0,0,0,what was courtney larrel's age,"23, ",23,14-17 (based on given information),14-17 base given inform,1,0,1,0
+100,0,2,cosine,8129.573474407196,42,7,0.00,0.00,what,0,0.16666666666666666,0.25,0.2,What happened to Burk's car?,"on fire in a campus parking lot.
+",fire campu park lot,"1. Impounded (or seized)
+    2. Set on fire",1. impound seiz 2. set fire,1,1,0,0
+100,0,2,cosine,8156.089066505432,42,8,0.00,0.00,what,1,1.0,1.0,1.0,What was Burks car like when it was discovered?,on fire ,fire, On fire,fire,0,0,0,0
+100,0,2,cosine,8179.788567781448,42,9,0.00,0.00,who,0,0,0,0,who died at the hospital,"Lauren Burk, ",lauren burk,"1. The woman
+    2. Died
+    3. At the hospital",1. woman 2. die 3. hospit,1,1,0,0
+100,0,2,cosine,8208.651309490204,43,0,0.00,0.00,who,0,0,0,0,Against whom did Marines face off against in Khan Neshin?,insurgents ,insurg,1. Taliban,1. taliban,1,0,1,0
+100,0,2,cosine,8234.373329401016,43,2,0.00,0.00,other,0,0.5,1.0,0.6666666666666666,Which group claimed responsibility for attack on U.S. military vehicle?,The Taliban ,taliban,1) Taliban,1 taliban,1,0,0,1
+100,0,2,cosine,8262.881377458572,43,3,0.00,0.00,what,0,0,0,0,What Marines surrounded compound?,U.S. ,u.,1. The Marines who surrounded the compound are not specified in the provided information.,1. marin surround compound specifi provid inform,1,1,0,0
+100,0,2,cosine,8262.881605148315,43,4,1.00,0.00,what,,,,,What will the US military after the attacks?,,,,,,,,
+100,0,2,cosine,8293.869425296783,43,5,0.00,0.00,how many,0,0,0,0,How many U.S. soldiers were killed by roadside bomb?,six ,six,6 U.S. soldiers,6 u.s. soldier,1,0,1,0
+100,0,2,cosine,8293.86958026886,43,6,1.00,0.00,other,,,,,Will the fault of those in Afghanistan 6 dead?,,,,,,,,
+100,0,2,cosine,8323.468080759048,43,8,0.00,0.33,what,0,0,0,0,What was the cause of the clash between marines and insurgents?,a blast that hit a U.S. vehicle ,blast hit u.s. vehicl,"1. Insurgent attack on Marines
+    2. Suspected militant activity by insurgents",1. insurg attack marin 2. suspect milit activ insurg,1,1,0,0
+100,0,2,cosine,8348.987887620926,44,0,0.00,0.00,when,0,0,0,0,When did the financial crisis occur?,"October, ",octob,2008 (or late 2007 to mid-2009),2008 late 2007 mid-2009,1,0,1,0
+100,0,2,cosine,8384.189747333527,44,1,0.00,0.33,what,0,0,0,0,What did the financial crisis trigger?,victory in general elections ,victori gener elect,"1. Bank collapses
+    2. IMF intervention for a Western European democracy (first time)
+    3. Logistical and financial challenges
+    4. Derailment of public viewing plans
+    5. Delay in major economic recovery legislation reaching Congress",1. bank collaps 2. imf intervent western european democraci first time 3. logist financi challeng 4. derail public view plan 5. delay major econom recoveri legisl reach congress,1,1,0,0
+100,0,2,cosine,8403.15320777893,44,2,0.00,0.00,what,0,0,0,0,What crashed last year?,leading banks ,lead bank, Peace negotiations,peac negoti,1,0,1,0
+100,0,2,cosine,8432.560984134674,44,4,0.00,0.00,who,0,0.3333333333333333,1.0,0.5,Who is the world's first openly gay premier?,"Sigurdardottir, ",sigurdardottir,Þóra Sigurdardottir (Iceland),þóra sigurdardottir iceland,1,0,0,1
+100,0,2,cosine,8463.318387508392,44,5,0.00,0.00,what,0,0.3333333333333333,0.5,0.4,What left Iceland in turmoil?,"currency, stock market and leading banks crashed ",currenc stock market lead bank crash,"1. Financial crisis (currency, stock market)
+    2. Political instability",1. financi crisi currenc stock market 2. polit instabl,1,0,0,1
+100,0,2,cosine,8496.803927659988,44,6,0.00,0.00,what,0,0,0,0,What was the Icelandic vote triggered by?,"collapse of the Nordic nation's economy.
+",collaps nordic nation 's economi,"1. Financial crisis (currency, stock market)
+    2. Political turmoil",1. financi crisi currenc stock market 2. polit turmoil,1,1,0,0
+100,0,2,cosine,8527.202575206757,44,7,0.00,0.00,who,0,0.125,1.0,0.2222222222222222,Who is Johanna Sigurdardottir?,Icelandic ,iceland,1st openly gay leader & 1st female premier of Iceland,1st openli gay leader 1st femal premier iceland,1,0,0,1
+100,0,2,cosine,8553.401865959167,45,1,0.00,0.00,who,0,0,0,0,Who is Khan's opponent ?,Andreas Kotelnik ,andrea kotelnik, Not provided (The question does not specify who Khan's opponent was.),provid question specifi khan 's oppon,1,0,1,0
+100,0,2,cosine,8582.52939748764,45,2,0.00,0.33,other,0,0,0,0,Does British boxer Amir Khan retain his WBA light-welterweight title in his first defense?,has retained ,retain, Yes,ye,1,0,1,0
+100,0,2,cosine,8609.260395050049,45,3,0.00,0.00,who,0,0.6666666666666666,1.0,0.8,Who retains his light-welterweight title in his first defense?,Amir Khan ,amir khan,1. Amir Khan,1. amir khan,1,0,0,1
+100,0,2,cosine,8635.509623765945,45,4,0.00,0.00,how many,0,0,0,0,how many times knocked ?,three ,three,9 (times),9 time,1,0,1,0
+100,0,2,cosine,8635.509800434113,45,5,1.00,0.00,what,,,,,What was title of British?,,,,,,,,
+100,0,2,cosine,8657.174727678299,45,7,0.00,0.33,who,0,0,0,0,Who is Kahan a devout follower of?,"Muslim, ",muslim, Christ (or Christianity),christ christian,1,1,0,0
+100,0,2,cosine,8680.915622472763,45,8,0.00,0.00,who,0,0,0,0,Who did he knock down three times in the opening minute?,Dmitriy Salita ,dmitriy salita, Khan's opponent,khan 's oppon,1,1,0,0
+100,0,2,cosine,8708.878839969635,46,0,0.00,0.00,what,1,0,0,0,What network is set to rival Verizon?,AT&T ,, AT&T,,0,0,0,0
+100,0,2,cosine,8708.878998041153,46,1,0.00,1.00,when,,,,,When do Sprint start rolling out their network?,,,,,,,,
+100,0,2,cosine,8737.367168664932,46,2,0.00,0.33,what,0,0.2,1.0,0.33333333333333337,What network is AT&T expanding,LTE ,lte,1. LTE (AT&T's LTE network),1. lte 's lte network,1,0,0,1
+100,0,2,cosine,8765.926976203918,46,3,0.00,0.00,other,0,0.5,0.3333333333333333,0.4,Which network is currently the largest in terms of nationwide coverage?,Verizon's LTE ,verizon 's lte,1) Verizon,1 verizon,1,0,0,1
+100,0,2,cosine,8799.806233882904,46,4,0.00,0.00,what,0,0.09090909090909091,1.0,0.16666666666666669,What network is currently the largest in terms of nationwide coverage?,Verizon ,verizon,1) Verizon (Verizon's LTE network is currently the largest in terms of nationwide coverage.),1 verizon verizon 's lte network current largest term nationwid coverag,1,0,0,1
+100,0,2,cosine,8826.10063457489,46,6,0.33,0.00,what,0,0.5,1.0,0.6666666666666666,What is currently the largest,Verizon's LTE network ,verizon 's lte network,1) Verizon's LTE network (in terms of nationwide coverage).,1 verizon 's lte network term nationwid coverag,1,0,0,1
+100,0,2,cosine,8846.60726094246,46,7,0.00,0.00,what,0,0.14285714285714285,0.14285714285714285,0.14285714285714285,What does the report show,AT&T's average LTE speeds are better than Verizon's ,'s averag lte speed better verizon 's, The report shows information obtained from KABC's device.,report show inform obtain kabc 's devic,1,1,0,0
+100,0,2,cosine,8880.153369665146,46,8,0.00,0.33,who,0,0,0,0,Who is expanding their LTE netwowrk?,AT&T ,,"1. AT&T (late 2010)
+    2. Verizon (mid to late 2012)
+    3. Sprint (summer of this year)",1. late 2010 2. verizon mid late 2012 3. sprint summer year,1,1,0,0
+100,0,2,cosine,8903.50587272644,47,0,0.00,0.33,who,0,0,0,0,Who complains about the high taxes?,Farmers ,farmer, Critics of Fernandez,critic fernandez,1,1,0,0
+100,0,2,cosine,8927.027121782303,47,1,0.00,0.00,where,0,0.16666666666666666,0.5,0.25,Where is the profit to be spread?,"help the poor.
+",help poor,"1. Poor (beneficiaries)
+    2. Small businesses",1. poor beneficiari 2. small busi,1,1,0,0
+100,0,2,cosine,8957.250515699387,47,2,0.00,0.00,what,0,0,0,0,What is Cristina Fernandez position?,President ,presid,"1. Defending an increase in policies.
+    2. Opposed to non-inclusion of spotlight on Michelle Obama.",1. defend increas polici 2. oppos non-inclus spotlight michel obama,1,0,1,0
+100,0,2,cosine,8981.476155519485,47,3,0.00,0.00,who,0,0.5,1.0,0.6666666666666666,Who is Cristina Fernandez?,President ,presid, Argentine President,argentin presid,1,0,0,1
+100,0,2,cosine,8981.476331233978,47,4,0.00,1.00,when,,,,,When did higher food prices occur?,,,,,,,,
+100,0,2,cosine,9004.32388663292,47,5,0.00,0.33,what,0,1.0,0.3,0.4615384615384615,What do farmers say?,"countered that they need to reinvest the profits and that the higher taxes make it difficult for them to make a living.
+",counter need reinvest profit higher tax make difficult make live, They need to reinvest profits.,need reinvest profit,1,1,0,0
+100,0,2,cosine,9031.356338977814,47,8,0.00,0.00,where,0,0.42857142857142855,1.0,0.6,Where should profits from higher food prices go?,"spread to help the poor.
+",spread help poor,"1) To help the poor (spread to them).
+    2) Reinvestment (for farmers).",1 help poor spread 2 reinvest farmer,1,1,0,0
+100,0,2,cosine,9058.194660663605,47,9,0.00,0.00,who,0,0,0,0,Who appealed for dialogue and respect?,President Cristina Fernandez ,presid cristina fernandez,1. John B. Mattingly (ACS Commissioner),1. john b. mattingli ac commission,1,1,0,0
+100,0,2,cosine,9086.114805221558,48,0,0.00,0.00,when,0,0.5,1.0,0.6666666666666666,The Formula One season resumes with the Belgian Grand Prix when?,August 28.,august 28,28 August (year not specified),28 august year specifi,1,0,0,1
+100,0,2,cosine,9108.981522798538,48,1,0.00,0.00,where,1,1.0,1.0,1.0,Where did Alonso win?,British Grand Prix ,british grand prix, British Grand Prix,british grand prix,0,0,0,0
+100,0,2,cosine,9133.5978307724,48,2,0.00,0.00,when,0,0.6666666666666666,1.0,0.8,when is the Belgian Grand Prix?,August 28.,august 28,28 August (Sunday),28 august sunday,1,0,0,1
+100,0,2,cosine,9157.386140584946,48,3,0.00,0.00,where,0,0.25,1.0,0.4,where did Alonso win a grand prix at?,British ,british,1. British (Grand Prix),1. british grand prix,1,1,0,0
+100,0,2,cosine,9181.830309867859,48,4,0.00,0.00,where,0,0,0,0,Where was Fernando Alonso's victory?,British Grand Prix ,british grand prix,1. Silverstone (UK),1. silverston uk,1,0,1,0
+100,0,2,cosine,9206.103490114212,48,5,0.00,0.00,who,0,1.0,0.75,0.8571428571428571,Who expects Ferrari to win races?,president Luca di Montezemolo ,presid luca di montezemolo, Luca di Montezemolo,luca di montezemolo,1,0,0,1
+100,0,2,cosine,9231.492486953735,48,6,0.00,0.00,when,0,0,0,0,When does the F1 season resume?,"later this month.
+",later month,28 August (Spa),28 august spa,1,1,0,0
+100,0,2,cosine,9259.77663898468,48,7,0.00,0.00,who,0,1.0,0.75,0.8571428571428571,Who expects Ferrari to win races in the second half of the 2011 season?,president Luca di Montezemolo ,presid luca di montezemolo, Luca di Montezemolo,luca di montezemolo,1,0,0,1
+100,0,2,cosine,9285.65156674385,49,1,0.33,0.00,what,0,0.14285714285714285,0.14285714285714285,0.14285714285714285,What follows after suspected suicide attack?,Hundreds of Pakistani residents have taken up arms and are battling local ,hundr pakistani resid taken arm battl local,"1. Outrage among residents
+    2. DEA investigation",1. outrag among resid 2. dea investig,1,1,0,0
+100,0,2,cosine,9308.928025960922,49,2,0.00,0.00,who,0,0.4,1.0,0.5714285714285715,Who is using heavy weapons?,Both the residents and Taliban ,resid taliban,"1) Residents
+    2) Taliban fighters",1 resid 2 taliban fighter,1,0,0,1
+100,0,2,cosine,9335.25179719925,49,3,0.00,0.00,how many,1,1.0,1.0,1.0,How many Pakistanis have been displaced by fighting?,2 million ,2 million,2 million,2 million,0,0,0,0
+100,0,2,cosine,9357.580877065659,49,4,0.00,0.00,where,0,0,0,0,Where is the Pakistan army fighting the Taliban militants?,"near the Afghanistan border.
+",near afghanistan border, Northwest Pakistan,northwest pakistan,1,1,0,0
+100,0,2,cosine,9378.033328294754,49,5,0.00,0.33,where,0,0,0,0,Where are they fighting?,Upper Dir district ,upper dir district,"1. Bosnia
+    2. Kosovo
+    3. Liberia",1. bosnia 2. kosovo 3. liberia,1,1,0,0
+100,0,2,cosine,9397.52640581131,49,7,0.00,0.00,who,0,0,0,0,Who is fighting?,"Pakistani military and Taliban militants.
+",pakistani militari taliban milit,"1. Rebels/Militants
+    2. Government",1. rebels/milit 2. govern,1,1,0,0
+100,0,2,cosine,9420.086898088455,49,8,0.00,0.33,what,0,0,0,0,What does the U.N. say?,"an estimated 2 million Pakistanis have been displaced by fighting between the Pakistani military and Taliban militants.
+",estim 2 million pakistani displac fight pakistani militari taliban milit,5 permanent members of Security Council include US.,5 perman member secur council includ us,1,1,0,0

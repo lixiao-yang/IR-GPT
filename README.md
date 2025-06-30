@@ -1,1 +1,2 @@
 # IR-GPT
+This repository contains all experiment scripts and data related to the paper "Enhancing Question Answering Precision with Optimized Vector Retrieval and Instructions" by Lixiao Yang, Mengyang Xu, and Weimao Ke.
